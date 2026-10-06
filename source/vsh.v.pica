@@ -1,0 +1,41 @@
+; gles1 subset vertex shader. straight line on purpose: the earlier version branched on
+; bool uniforms (ifu/.else) and wrote outputs piecewise, and real hardware hung on it.
+; GL_FIXED arrays are converted to float on the cpu before they get here.
+
+.fvec mvp[4]
+.fvec tmat[4]
+.fvec k         ; y = color scale (1/255 for ubyte colors, 1 otherwise)
+
+.constf c0(0.0, 1.0, 0.0, 0.0)
+.alias zeros c0.xxxx
+.alias ones c0.yyyy
+
+.out opos position
+.out otc texcoord0
+.out oclr color
+
+.alias ipos v0
+.alias itc v1
+.alias iclr v2
+
+.proc main
+	mov r0.xyz, ipos.xyz
+	mov r0.w, ones
+	dp4 r1.x, mvp[0], r0
+	dp4 r1.y, mvp[1], r0
+	dp4 r1.z, mvp[2], r0
+	dp4 r1.w, mvp[3], r0
+	mov opos, r1
+
+	mov r0.xy, itc.xy
+	mov r0.z, zeros
+	mov r0.w, ones
+	dp4 r2.x, tmat[0], r0
+	dp4 r2.y, tmat[1], r0
+	mov r2.zw, zeros
+	mov otc, r2
+
+	mul r3, k.yyyy, iclr
+	mov oclr, r3
+	end
+.end

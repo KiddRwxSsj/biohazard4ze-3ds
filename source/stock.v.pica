@@ -1,0 +1,23 @@
+; plain position + color passthrough, the same shape as the citro3d examples.
+; only used by the gpu self test as a known-good baseline
+.fvec proj[4]
+
+.constf c0(1.0, 0.0, 0.0, 0.0)
+.alias one c0.xxxx
+
+.out opos position
+.out oclr color
+
+.alias ipos v0
+.alias iclr v1
+
+.proc main
+	mov r0.xyz, ipos
+	mov r0.w, one
+	dp4 opos.x, proj[0], r0
+	dp4 opos.y, proj[1], r0
+	dp4 opos.z, proj[2], r0
+	dp4 opos.w, proj[3], r0
+	mov oclr, iclr
+	end
+.end
