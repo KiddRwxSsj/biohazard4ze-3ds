@@ -1,0 +1,22 @@
+# build output
+build/
+*.elf
+*.3dsx
+*.smdh
+release/
+
+# game data, user art, local notes and anything pulled out of the game. never commit
+private/
+
+# generated from the user's menu art (make meta)
+meta/icon.png
+meta/banner.png
+
+# toolchain, downloads, emulator runtime (its virtual sd holds game files)
+tools/*
+!tools/lr.py
+!tools/pull.sh
+
+.venv/
+__pycache__/
+*.pyc
