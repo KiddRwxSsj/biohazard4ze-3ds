@@ -1,0 +1,2384 @@
+# english for the zeebo build. keys: archive:entry:offset from `re/lang.py dump`
+# own translation of the pt text, not capcom's english script
+# "|" = line break. {1}..{4} {H} = pad buttons, re/lang.py maps them to 3ds names
+
+# ---- common.h2z:item_base_info.bin (item names and descriptions)
+@common.h2z:item_base_info.bin:0x1f
+Combat Knife
+@common.h2z:item_base_info.bin:0x4a
+Hatchet
+@common.h2z:item_base_info.bin:0x6d
+Sickle
+@common.h2z:item_base_info.bin:0x8e
+Sword
+@common.h2z:item_base_info.bin:0xb0
+Handgun
+@common.h2z:item_base_info.bin:0xba
+Standard 9mm handgun.
+@common.h2z:item_base_info.bin:0xee
+Magnum
+@common.h2z:item_base_info.bin:0xf5
+A very powerful|.45 caliber magnum!
+@common.h2z:item_base_info.bin:0x135
+Shotgun
+@common.h2z:item_base_info.bin:0x13e
+A pump-action shotgun|that hits several|enemies at once.
+@common.h2z:item_base_info.bin:0x19e
+Rifle
+@common.h2z:item_base_info.bin:0x1a4
+Semi-automatic .223 rifle.|Up and down on the right|stick to zoom.
+@common.h2z:item_base_info.bin:0x21d
+Compact 9mm gun.|Hold the attack button|for rapid fire.
+@common.h2z:item_base_info.bin:0x287
+Rocket Launcher
+@common.h2z:item_base_info.bin:0x297
+Zoom with up and down on|the right stick. Deals huge|damage in a single hit.
+@common.h2z:item_base_info.bin:0x30c
+Mine Thrower
+@common.h2z:item_base_info.bin:0x319
+Fires mines that stick|to objects and detonate|shortly after.
+@common.h2z:item_base_info.bin:0x36e
+Bow
+@common.h2z:item_base_info.bin:0x38f
+Hand Grenade
+@common.h2z:item_base_info.bin:0x39f
+A handy explosive that|goes off a few seconds|after it's thrown.
+@common.h2z:item_base_info.bin:0x406
+Flash Grenade
+@common.h2z:item_base_info.bin:0x415
+Blinds enemies|for a moment.
+@common.h2z:item_base_info.bin:0x45a
+Infinite Launcher
+@common.h2z:item_base_info.bin:0x46d
+A powerful weapon with|unlimited ammo! Up and down|on the right stick to zoom.
+@common.h2z:item_base_info.bin:0x4df
+Infinite Grenades
+@common.h2z:item_base_info.bin:0x4f2
+Your grenade supply|never runs out, even after|a thousand throws.
+@common.h2z:item_base_info.bin:0x557
+Handgun Ammo
+@common.h2z:item_base_info.bin:0x56e
+A box of 9mm rounds.
+@common.h2z:item_base_info.bin:0x5a4
+Magnum Ammo
+@common.h2z:item_base_info.bin:0x5b8
+Ammo for the|.45 caliber magnum.
+@common.h2z:item_base_info.bin:0x5f5
+Shotgun Shells
+@common.h2z:item_base_info.bin:0x608
+12 gauge shells.|Load them in your shotgun.
+@common.h2z:item_base_info.bin:0x652
+Rifle Ammo
+@common.h2z:item_base_info.bin:0x665
+Ammo for any|.223 caliber rifle.
+@common.h2z:item_base_info.bin:0x6ab
+TMP Ammo
+@common.h2z:item_base_info.bin:0x6b4
+Standard 9mm rounds.
+@common.h2z:item_base_info.bin:0x6e5
+Mine Darts
+@common.h2z:item_base_info.bin:0x6f1
+Standard darts for|the Mine Thrower.
+@common.h2z:item_base_info.bin:0x735
+Green Herb
+@common.h2z:item_base_info.bin:0x744
+A herb that restores|some health.
+@common.h2z:item_base_info.bin:0x78a
+Yellow Herb
+@common.h2z:item_base_info.bin:0x79b
+Mix with a Green Herb|to raise your|maximum health.
+@common.h2z:item_base_info.bin:0x7f0
+Red Herb
+@common.h2z:item_base_info.bin:0x801
+Mix with a Green Herb|to fully restore|your health.
+@common.h2z:item_base_info.bin:0x863
+Mixed Herbs (G+Y)
+@common.h2z:item_base_info.bin:0x876
+A mix of two herbs.|Raises the health bar and|restores some health.
+@common.h2z:item_base_info.bin:0x8e2
+Mixed Herbs (G+R)
+@common.h2z:item_base_info.bin:0x8f5
+A mix of two herbs.|Fully restores health.
+@common.h2z:item_base_info.bin:0x948
+Mixed Herbs (G+Y+R)
+@common.h2z:item_base_info.bin:0x95d
+A mix of three herbs.|Raises and fully|restores health.
+@common.h2z:item_base_info.bin:0x9bc
+Mixed Herbs (Y+R)
+@common.h2z:item_base_info.bin:0x9cf
+A mix of two herbs.|Mix with a Green Herb to|raise and restore health.
+@common.h2z:item_base_info.bin:0xa3f
+Mixed Herbs (G+G)
+@common.h2z:item_base_info.bin:0xa51
+A mix of two Green|Herbs. Restores a good|amount of health.
+@common.h2z:item_base_info.bin:0xab1
+Mixed Herbs (G+G+G)
+@common.h2z:item_base_info.bin:0xac3
+A mix of three Green|Herbs. Fully restores|health.
+@common.h2z:item_base_info.bin:0xb1f
+First Aid Spray
+@common.h2z:item_base_info.bin:0xb31
+Fully restores health.
+@common.h2z:item_base_info.bin:0xb68
+Chicken Egg
+@common.h2z:item_base_info.bin:0xb77
+Restores a little health.
+@common.h2z:item_base_info.bin:0xbac
+Brown Chicken Egg
+@common.h2z:item_base_info.bin:0xbc1
+Restores some health.
+@common.h2z:item_base_info.bin:0xbf7
+Gold Chicken Egg
+@common.h2z:item_base_info.bin:0xc0b
+Fully restores health.
+@common.h2z:item_base_info.bin:0xc42
+Attache Case S
+@common.h2z:item_base_info.bin:0xc4f
+A small case.|6 x 10 (60 slots).
+@common.h2z:item_base_info.bin:0xc96
+Attache Case M
+@common.h2z:item_base_info.bin:0xca3
+A medium case.|7 x 11 (77 slots).
+@common.h2z:item_base_info.bin:0xce9
+Attache Case L
+@common.h2z:item_base_info.bin:0xcf3
+A large case.|8 x 12 (96 slots).
+@common.h2z:item_base_info.bin:0xd39
+Attache Case XL
+@common.h2z:item_base_info.bin:0xd44
+The largest case available.|8 x 15 (120 slots).
+@common.h2z:item_base_info.bin:0xd94
+Clothes
+@common.h2z:item_base_info.bin:0xda0
+Your standard clothes.
+@common.h2z:item_base_info.bin:0xdd2
+Tactical Vest
+@common.h2z:item_base_info.bin:0xde1
+Cuts damage by 10%%
+@common.h2z:item_base_info.bin:0xe0e
+Iron Vest
+@common.h2z:item_base_info.bin:0xe1e
+Cuts damage by 20%%
+@common.h2z:item_base_info.bin:0xe4b
+Hybrid Vest
+@common.h2z:item_base_info.bin:0xe5a
+Cuts damage by 30%%
+@common.h2z:item_base_info.bin:0xe87
+Emblem (Right Half)
+@common.h2z:item_base_info.bin:0xe9b
+The right half of an|emblem bearing a figure.
+@common.h2z:item_base_info.bin:0xee2
+Emblem (Left Half)
+@common.h2z:item_base_info.bin:0xef6
+The left half of an|emblem bearing a figure.
+@common.h2z:item_base_info.bin:0xf3e
+Hexagonal Emblem
+@common.h2z:item_base_info.bin:0xf4e
+A hexagonal object with|an insignia. Opens the|valley gate.
+@common.h2z:item_base_info.bin:0xfa6
+Insignia Key
+@common.h2z:item_base_info.bin:0xfb6
+A key with a unique|symbol on its tip. Opens|a house in the village.
+@common.h2z:item_base_info.bin:0x1017
+Prison Key
+@common.h2z:item_base_info.bin:0x1028
+Opens the door of|the underground prison.
+@common.h2z:item_base_info.bin:0x1073
+Castle Gate Key
+@common.h2z:item_base_info.bin:0x1084
+A key engraved with a|goat. It opens the main|gate of the castle.
+@common.h2z:item_base_info.bin:0x10eb
+Old Key
+@common.h2z:item_base_info.bin:0x10f7
+A reddish-brown key|used to open|locked doors.
+@common.h2z:item_base_info.bin:0x1150
+Spinel
+@common.h2z:item_base_info.bin:0x1159
+Small in size, but|it seems to be|worth something.
+@common.h2z:item_base_info.bin:0x11aa
+Velvet Blue
+@common.h2z:item_base_info.bin:0x11b6
+Small in size, but|it seems to be|worth something.
+@common.h2z:item_base_info.bin:0x1207
+Ruby
+@common.h2z:item_base_info.bin:0x120c
+A large and|precious stone.
+@common.h2z:item_base_info.bin:0x1244
+Dirty Pocket Watch
+@common.h2z:item_base_info.bin:0x1254
+A very dirty timepiece.|It doesn't look worth|much.
+@common.h2z:item_base_info.bin:0x12ad
+Antique Pipe
+@common.h2z:item_base_info.bin:0x12bd
+There's a design on|the stem. Let's hope|it's worth something.
+@common.h2z:item_base_info.bin:0x1319
+Pearl Bracelet
+@common.h2z:item_base_info.bin:0x132d
+An intricate ornament.|Seems to be worth|something.
+@common.h2z:item_base_info.bin:0x1377
+Amber Ring
+@common.h2z:item_base_info.bin:0x1385
+An old ring with a long|history. Let's hope it's|worth something.
+@common.h2z:item_base_info.bin:0x13f4
+Gold Bangle
+@common.h2z:item_base_info.bin:0x1404
+A gold bangle with a|fine design engraved|all around it.
+@common.h2z:item_base_info.bin:0x1462
+Mask with Sockets
+@common.h2z:item_base_info.bin:0x1477
+A mask with 3 sockets.|Something could be|set into it.
+@common.h2z:item_base_info.bin:0x14d0
+Green Gem
+@common.h2z:item_base_info.bin:0x14db
+Marks on it show that|it was once set into|something.
+@common.h2z:item_base_info.bin:0x1531
+Purple Gem
+@common.h2z:item_base_info.bin:0x153f
+Marks on it show that|it was once set into|something.
+@common.h2z:item_base_info.bin:0x1595
+Red Gem
+@common.h2z:item_base_info.bin:0x15a2
+Marks on it show that|it was once set into|something.
+@common.h2z:item_base_info.bin:0x15f8
+Mask + Green Gem
+@common.h2z:item_base_info.bin:0x160a
+A mask with|one gem set in it.
+@common.h2z:item_base_info.bin:0x164b
+Mask + Purple Gem
+@common.h2z:item_base_info.bin:0x165d
+A mask with|one gem set in it.
+@common.h2z:item_base_info.bin:0x169f
+Mask + Red Gem
+@common.h2z:item_base_info.bin:0x16b1
+A mask with|one gem set in it.
+@common.h2z:item_base_info.bin:0x16f3
+Mask + G+P
+@common.h2z:item_base_info.bin:0x1702
+A mask with|two gems set in it.
+@common.h2z:item_base_info.bin:0x1746
+Mask + G+R
+@common.h2z:item_base_info.bin:0x1755
+A mask with|two gems set in it.
+@common.h2z:item_base_info.bin:0x1799
+Mask + P+R
+@common.h2z:item_base_info.bin:0x17a8
+A mask with|two gems set in it.
+@common.h2z:item_base_info.bin:0x17eb
+Mask + R+G+P
+@common.h2z:item_base_info.bin:0x17fc
+A mask with|three gems set in it.
+@common.h2z:item_base_info.bin:0x1842
+Crown with Sockets
+@common.h2z:item_base_info.bin:0x1855
+A crown with three|sockets. Something could|be set into it.
+@common.h2z:item_base_info.bin:0x18af
+Crown Jewel
+@common.h2z:item_base_info.bin:0x18bf
+Marks on it show that|it was once set into|something.
+@common.h2z:item_base_info.bin:0x1915
+Royal Insignia
+@common.h2z:item_base_info.bin:0x1924
+Marks on it show that|it was once set into|something.
+@common.h2z:item_base_info.bin:0x197a
+Crown with Jewels
+@common.h2z:item_base_info.bin:0x198b
+A crown with two|jewels set in it.
+@common.h2z:item_base_info.bin:0x19cc
+Crown with Insignia
+@common.h2z:item_base_info.bin:0x19e0
+A crown bearing the|royal insignia.
+@common.h2z:item_base_info.bin:0x1a25
+Salazar Family Crown
+@common.h2z:item_base_info.bin:0x1a38
+A complete crown with|every jewel and the|insignia on it.
+@common.h2z:item_base_info.bin:0x1a94
+Game Manual 1
+@common.h2z:item_base_info.bin:0x1ac0
+About Ashley
+@common.h2z:item_base_info.bin:0x1af7
+Game Manual 2
+@common.h2z:item_base_info.bin:0x1b23
+Warnings
+@common.h2z:item_base_info.bin:0x1b46
+Anonymous Letter
+@common.h2z:item_base_info.bin:0x1b70
+Church Closure
+@common.h2z:item_base_info.bin:0x1ba2
+Game Manual 3
+@common.h2z:item_base_info.bin:0x1bce
+Capture Luis Sera
+@common.h2z:item_base_info.bin:0x1bfc
+Luis' Notes
+@common.h2z:item_base_info.bin:0x1c2b
+Luis' Notes 2
+@common.h2z:item_base_info.bin:0x1c5c
+Notes on Grenades
+@common.h2z:item_base_info.bin:0x1c8c
+Mine Thrower Manual
+@common.h2z:item_base_info.bin:0x1cbe
+Attache Case Manual
+@common.h2z:item_base_info.bin:0x1ceb
+Firepower
+@common.h2z:item_base_info.bin:0x1cf9
+Damage to enemies goes|up %s. (Handgun|firepower is 1.0).
+@common.h2z:item_base_info.bin:0x1d56
+Range
+@common.h2z:item_base_info.bin:0x1d5e
+%s increase in the|weapon's maximum range|(distance in meters).
+@common.h2z:item_base_info.bin:0x1dbb
+Long Range
+@common.h2z:item_base_info.bin:0x1de6
+Capacity
+@common.h2z:item_base_info.bin:0x1df1
+Rounds this weapon|can hold go up %s.
+@common.h2z:item_base_info.bin:0x1e43
+Size
+@common.h2z:item_base_info.bin:0x1e4b
+Case size|goes down %s.
+@common.h2z:item_base_info.bin:0x1e85
+Firing Speed
+@common.h2z:item_base_info.bin:0x1e9a
+Firing speed|goes up %s|(1.0 = 1 second per shot).
+@common.h2z:item_base_info.bin:0x1ef1
+Reload Speed
+@common.h2z:item_base_info.bin:0x1f03
+Reload speed goes|up %s (1.0 = 1|second to reload).
+@common.h2z:item_base_info.bin:0x1f63
+Piercing
+@common.h2z:item_base_info.bin:0x1f6c
+Ability to pierce|enemies goes up %s.
+@common.h2z:item_base_info.bin:0x1fb4
+Bullet Speed
+@common.h2z:item_base_info.bin:0x1fc3
+Raises the weapon's|bullet speed by %s.
+@common.h2z:item_base_info.bin:0x200a
+Area of Effect
+@common.h2z:item_base_info.bin:0x201a
+Raises the area of|effect by %s.
+@common.h2z:item_base_info.bin:0x2054
+Critical Hits
+@common.h2z:item_base_info.bin:0x2062
+Chance to deal critical|damage goes up %s.
+@common.h2z:item_base_info.bin:0x20ab
+Infinite Ammo
+@common.h2z:item_base_info.bin:0x20be
+This weapon now has|infinite ammo!
+@common.h2z:item_base_info.bin:0x20fe
+Blast Radius
+@common.h2z:item_base_info.bin:0x2110
+The area hit by this|weapon's shots grows %s.
+@common.h2z:item_base_info.bin:0x2159
+Disposable
+
+# ---- common.h2z:item_file_info.bin (manuals and files, patched in place)
+@common.h2z:item_file_info.bin:0x1b
+Note: if you changed|your control settings,|they will differ from|what this manual says.
+@common.h2z:item_file_info.bin:0x94
+  *Aiming, Shooting*|Hold ZR to ready|your weapon, then use|the D-Pad to aim freely.
+@common.h2z:item_file_info.bin:0x114
+  *Knife*|Hold ZL to ready|your knife and press|{2} to attack.|The knife is separate|from your other weapons.
+@common.h2z:item_file_info.bin:0x195
+  *Run & Walk*|Hold {2} to run,|release it to walk.
+@common.h2z:item_file_info.bin:0x1e0
+  *Actions*|When a message such|as "Action: Open"|appears, press {2}|to perform it.
+@common.h2z:item_file_info.bin:0x271
+Name: Ashley Graham (20)|Daughter of the|U.S. President.|Kidnapped by an|unknown group on her|way home from college.
+@common.h2z:item_file_info.bin:0x313
+The motive for the|kidnapping is unclear,|though reliable sources|say the one behind it|is known.
+@common.h2z:item_file_info.bin:0x388
+Only a select few|know about the|kidnapping. It is kept|secret mainly because|we can't yet tell who|is behind it.
+@common.h2z:item_file_info.bin:0x429
+Intelligence says Ashley|was sighted somewhere|in Europe. But until|we learn who is behind|this, I don't know|what to believe.
+@common.h2z:item_file_info.bin:0x501
+  *Reload*|Press ZR once to|reload your weapon.
+@common.h2z:item_file_info.bin:0x549
+  *Melee Attack*|To hit an enemy up|close, get near and|press the Action button.
+@common.h2z:item_file_info.bin:0x5bd
+  *Status Screen*|Press {3} to open|the Status Screen.|Here you can check|your weapon and|healing items.
+@common.h2z:item_file_info.bin:0x647
+  *Options*|Press {H} to open|the Options screen.|You can set up sound|and controls there.
+@common.h2z:item_file_info.bin:0x6d8
+Rumor has it that an|agent of the American|government is here|snooping on the village.|Do not let this American|get near the prisoner.
+@common.h2z:item_file_info.bin:0x77c
+For those who don't know,|the prisoner is held|in an abandoned house|past the farm. When|we are ready, we will|move the prisoner to a|safe place in the valley.
+@common.h2z:item_file_info.bin:0x82f
+Until then, keep the|American away from|the prisoner.||Stay alert, brothers!|-Chief Bitores Mendez
+@common.h2z:item_file_info.bin:0x8c2
+An important item is|hidden by the falls.|If you can reach it,|you should be able to|get Ashley out.
+@common.h2z:item_file_info.bin:0x941
+A warning: the road to|the church is no walk in|the park. They've bred|something they call|"El Gigante".
+@common.h2z:item_file_info.bin:0x9be
+About what is going|on in your body...|I'd help you if I|could, but it's|beyond my power.
+@common.h2z:item_file_info.bin:0xa4b
+Of the two fugitives,|catching Luis comes|first. The American|agent can wait.
+@common.h2z:item_file_info.bin:0xabc
+What Luis stole from us|matters far more than|the girl. Without it|she is useless. We must|get it back and carry|our plan to the end.
+@common.h2z:item_file_info.bin:0xb67
+In the wrong hands,|the world would become|nothing like the one|Lord Saddler|envisions.
+@common.h2z:item_file_info.bin:0xbe2
+We must stop that at|all costs. To keep the|agent from reaching her,|I have locked the door|of the church where|she is held.
+@common.h2z:item_file_info.bin:0xc70
+Still, the same blood|runs in our veins.|It is only a matter|of time before he|joins us.
+@common.h2z:item_file_info.bin:0xcfa
+  *Ashley*|Press {4} to have|Ashley wait or|follow you.
+@common.h2z:item_file_info.bin:0xd4a
+  *Ashley's Health*|Healing items work|not only on Leon,|but on Ashley too.
+@common.h2z:item_file_info.bin:0xdb5
+  *Protecting Ashley*|The mission fails if|Ashley dies or is|captured by the enemy.
+@common.h2z:item_file_info.bin:0xe37
+Sera has been seen|entering the castle.
+@common.h2z:item_file_info.bin:0xe62
+That he came back after|escaping makes me|question his motives.|But we must seize the|moment and catch him.
+@common.h2z:item_file_info.bin:0xee6
+We take the other|two Americans once|we have Sera.
+@common.h2z:item_file_info.bin:0xf20
+He also took vaccines|when he stole our|sample. The vaccines|matter little, but we|must get the sample|back at any cost.|It is our life.
+@common.h2z:item_file_info.bin:0xfcd
+I sense someone else|from his group is|involved in this.
+@common.h2z:item_file_info.bin:0x101a
+If the "sample" falls|into anyone else's hands,|the world we seek to|build will never be.|We must recapture|Sera at once.
+@common.h2z:item_file_info.bin:0x10c6
+Some parasites can|control their host.|Biologists know this|well, yet little is|known about how|it works.
+@common.h2z:item_file_info.bin:0x1166
+Studying these parasites|in particular may give|us some clues about how|the power of Las Plagas|works.
+@common.h2z:item_file_info.bin:0x11dc
+And maybe teach us about|the victims of Las|Plagas, the Ganados.
+@common.h2z:item_file_info.bin:0x1223
+Dicrocoelium: Once the|larva of this parasite|reaches an ant's|esophagus, it changes|the ant's behavior.
+@common.h2z:item_file_info.bin:0x12a2
+When the temperature|drops in the evening,|the infected ant climbs|to the top of a plant|and clamps onto a leaf|with its mandibles.
+@common.h2z:item_file_info.bin:0x1333
+Galactosomum: The larva|of this parasite lives|in the brain of fish|such as catfish and|clownfish.
+@common.h2z:item_file_info.bin:0x13a5
+Once infected,|the fish rises to the|surface and swims|about until it is|eaten by gulls.
+@common.h2z:item_file_info.bin:0x1415
+Leucochloridium: The|spores of this parasite|grow in a snail's|tentacles. They are|brightly colored and|pulse constantly|like a worm.
+@common.h2z:item_file_info.bin:0x14af
+Remarkably, the infected|snail climbs to the top|of a leaf, where it is|easily seen by|predators.
+@common.h2z:item_file_info.bin:0x153f
+The first castellan|buried Las Plagas deep|beneath the castle.|When they were dug up,|only fossilized|remains were left.
+@common.h2z:item_file_info.bin:0x15c2
+They looked fossilized,|but they had survived,|dormant as spores.|Soon after, the villagers|inhaled the parasites,|which came to life|inside their bodies.
+@common.h2z:item_file_info.bin:0x1674
+That is how Las Plagas|returned.||As I write this, the|digging for Las Plagas|goes on.
+@common.h2z:item_file_info.bin:0x16d8
+God only knows how many|Plagas have been revived,|not to mention the|countless Ganados|they have made.
+@common.h2z:item_file_info.bin:0x1750
+This inhuman work|has to end.|If they aren't stopped,|people all over the|world could fall victim|to this cult.
+@common.h2z:item_file_info.bin:0x17f1
+Hand grenades are great|for taking out groups.||Make sure you throw|them far enough, or|you'll be caught in|the blast.
+@common.h2z:item_file_info.bin:0x187e
+Flash grenades come in|handy in tight rooms or|when you're surrounded|by enemies and can't|use normal grenades.
+@common.h2z:item_file_info.bin:0x190b
+These two kinds of|grenade have different|effects. Think it over|before you throw!
+@common.h2z:item_file_info.bin:0x19a5
+The Mine Thrower is|better for placing|explosions precisely.
+@common.h2z:item_file_info.bin:0x19ea
+Its special ammo sticks|to the target and blows|up after 3 seconds.|Make sure you are clear|of the blast.
+@common.h2z:item_file_info.bin:0x1a8d
+The Attache Case lets|you move items around|to make room for what|you need to carry.
+@common.h2z:item_file_info.bin:0x1af9
+When you have several|of the same item, pick|"Combine" to merge|them into one.
+@common.h2z:item_file_info.bin:0x1b5c
+If you have too many|items to carry, use|"Discard" or "Sell".
+
+# ---- common.h2z:stgnfo_mission_mm.bin (extra missions: title, place, goal; resized)
+@common.h2z:stgnfo_mission_mm.bin:0x10
+Training Ground
+@common.h2z:stgnfo_mission_mm.bin:0x20
+Village
+@common.h2z:stgnfo_mission_mm.bin:0x29
+Take down as many enemies|as you can before the|helicopter arrives!
+@common.h2z:stgnfo_mission_mm.bin:0x7c
+Shotgun
+@common.h2z:stgnfo_mission_mm.bin:0x84
+Village
+@common.h2z:stgnfo_mission_mm.bin:0x8d
+Take down as many enemies|as you can with your|shotgun! Watch your ammo!
+@common.h2z:stgnfo_mission_mm.bin:0xe9
+Human Weapon
+@common.h2z:stgnfo_mission_mm.bin:0xf5
+Valley
+@common.h2z:stgnfo_mission_mm.bin:0xfa
+Brawl! Take down every|enemy within the|time limit!
+@common.h2z:stgnfo_mission_mm.bin:0x141
+Pincer Movement
+@common.h2z:stgnfo_mission_mm.bin:0x155
+Waterfall
+@common.h2z:stgnfo_mission_mm.bin:0x15f
+Beware of the fog,|it limits your sight!
+@common.h2z:stgnfo_mission_mm.bin:0x1a2
+The Gunman's Hand
+@common.h2z:stgnfo_mission_mm.bin:0x1b5
+Mine
+@common.h2z:stgnfo_mission_mm.bin:0x1ba
+Gun down your enemies|from this vantage point!|Don't let them get close!
+@common.h2z:stgnfo_mission_mm.bin:0x214
+The Shot That Counts
+@common.h2z:stgnfo_mission_mm.bin:0x226
+Church
+@common.h2z:stgnfo_mission_mm.bin:0x22d
+There's no extra ammo,|so make the most of|what you have!
+@common.h2z:stgnfo_mission_mm.bin:0x283
+Killer Road
+@common.h2z:stgnfo_mission_mm.bin:0x290
+Waterfall
+@common.h2z:stgnfo_mission_mm.bin:0x29a
+Take down every enemy|in your way and reach|the exit!
+@common.h2z:stgnfo_mission_mm.bin:0x2e5
+Escort in the Fog
+@common.h2z:stgnfo_mission_mm.bin:0x2f7
+Valley
+@common.h2z:stgnfo_mission_mm.bin:0x2fc
+Get Ashley to the exit|before time runs out!|Watch out for the fog!
+@common.h2z:stgnfo_mission_mm.bin:0x351
+Night of the Plagas
+@common.h2z:stgnfo_mission_mm.bin:0x362
+Village
+@common.h2z:stgnfo_mission_mm.bin:0x36b
+Las Plagas is infecting|everyone! Take them all|down before the chopper!
+@common.h2z:stgnfo_mission_mm.bin:0x3c4
+Nowhere to Hide
+@common.h2z:stgnfo_mission_mm.bin:0x3d9
+Barricaded Cabin
+@common.h2z:stgnfo_mission_mm.bin:0x3ed
+There's no safe place to|hide Ashley! Guard her|with your life!
+@common.h2z:stgnfo_mission_mm.bin:0x43e
+Giant's Shadow
+@common.h2z:stgnfo_mission_mm.bin:0x450
+Mine
+@common.h2z:stgnfo_mission_mm.bin:0x455
+A roar out of the fog!|Can you bring down|El Gigante in time?
+@common.h2z:stgnfo_mission_mm.bin:0x4a8
+Chainsaw Army
+@common.h2z:stgnfo_mission_mm.bin:0x4c5
+Village
+@common.h2z:stgnfo_mission_mm.bin:0x4ce
+The worst maniac of all,|the chainsaw man!
+@common.h2z:stgnfo_mission_mm.bin:0x510
+Handgun
+@common.h2z:stgnfo_mission_mm.bin:0x51a
+Battlements
+@common.h2z:stgnfo_mission_mm.bin:0x52b
+Armed with just a|handgun, use all you've|learned to drop them all!
+@common.h2z:stgnfo_mission_mm.bin:0x586
+Total Control
+@common.h2z:stgnfo_mission_mm.bin:0x595
+Audience Hall
+@common.h2z:stgnfo_mission_mm.bin:0x5ab
+Fight the Ganados in this|narrow hall. Take them all|down within the time limit!
+@common.h2z:stgnfo_mission_mm.bin:0x60b
+Guardian
+@common.h2z:stgnfo_mission_mm.bin:0x615
+Audience Hall
+@common.h2z:stgnfo_mission_mm.bin:0x62b
+Ashley is locked in the|dungeon! Rescue her before|time runs out!
+@common.h2z:stgnfo_mission_mm.bin:0x67e
+Countdown
+@common.h2z:stgnfo_mission_mm.bin:0x692
+Battlements
+@common.h2z:stgnfo_mission_mm.bin:0x6a3
+With only the Magnum,|take down every enemy,|but watch out for Ashley!
+@common.h2z:stgnfo_mission_mm.bin:0x6ff
+Shootout
+@common.h2z:stgnfo_mission_mm.bin:0x708
+Lookout Corridor
+@common.h2z:stgnfo_mission_mm.bin:0x71a
+It's you against Ganados|with bows!|Take them down!
+@common.h2z:stgnfo_mission_mm.bin:0x756
+The Great Rescue
+@common.h2z:stgnfo_mission_mm.bin:0x767
+Battlements
+@common.h2z:stgnfo_mission_mm.bin:0x778
+Take the key from the|enemy and head for the|exit with Ashley!
+@common.h2z:stgnfo_mission_mm.bin:0x7bf
+Bombardment
+@common.h2z:stgnfo_mission_mm.bin:0x7ca
+Main Hall
+@common.h2z:stgnfo_mission_mm.bin:0x7d9
+Use your huge stock|of grenades to rain|destruction on the hall.
+@common.h2z:stgnfo_mission_mm.bin:0x830
+Knife
+@common.h2z:stgnfo_mission_mm.bin:0x835
+Lookout Corridor
+@common.h2z:stgnfo_mission_mm.bin:0x847
+Only a knife to fight|your enemies with. Can|you survive?
+@common.h2z:stgnfo_mission_mm.bin:0x899
+Heated Battle
+@common.h2z:stgnfo_mission_mm.bin:0x8ab
+Furnace
+@common.h2z:stgnfo_mission_mm.bin:0x8b4
+You're trapped in the|furnace! The only way out|is to fight to the exit!
+@common.h2z:stgnfo_mission_mm.bin:0x90a
+The Way Out
+@common.h2z:stgnfo_mission_mm.bin:0x91e
+Old Irrigation Canal
+@common.h2z:stgnfo_mission_mm.bin:0x939
+Break through the enemy|barricade and get Ashley|to the elevator!
+@common.h2z:stgnfo_mission_mm.bin:0x985
+Standoff
+@common.h2z:stgnfo_mission_mm.bin:0x98d
+Old Irrigation Canal
+@common.h2z:stgnfo_mission_mm.bin:0x9a8
+No liquid nitrogen to|help you this time. Can|you survive Verdugo?!
+@common.h2z:stgnfo_mission_mm.bin:0xa07
+The Strongest Agent
+@common.h2z:stgnfo_mission_mm.bin:0xa1b
+Lookout Corridor
+@common.h2z:stgnfo_mission_mm.bin:0xa2d
+With the full arsenal,|you have all you need|to take everyone down!
+
+# ---- common.h2z:stgnfo_mission_ms.bin (story chapters: title, place, summary; resized)
+@common.h2z:stgnfo_mission_ms.bin:0x10
+Bloodlust
+@common.h2z:stgnfo_mission_ms.bin:0x1f
+Village
+@common.h2z:stgnfo_mission_ms.bin:0x28
+The nightmare begins! Leon|enters the village. Take|down the Ganados!
+@common.h2z:stgnfo_mission_ms.bin:0x74
+Luis Sera
+@common.h2z:stgnfo_mission_ms.bin:0x7e
+Valley
+@common.h2z:stgnfo_mission_ms.bin:0x83
+Captured and taken to a|safe place, Leon meets|Luis for the first time.
+@common.h2z:stgnfo_mission_ms.bin:0xdd
+Las Plagas
+@common.h2z:stgnfo_mission_ms.bin:0xe8
+Waterfall
+@common.h2z:stgnfo_mission_ms.bin:0xf2
+Leon's body writhes in|pain as the Plaga|parasite spreads.
+@common.h2z:stgnfo_mission_ms.bin:0x151
+The Giant's Cage
+@common.h2z:stgnfo_mission_ms.bin:0x165
+Mine
+@common.h2z:stgnfo_mission_ms.bin:0x16a
+Leon is trapped in the|mine as the dreadful|El Gigante closes in!
+@common.h2z:stgnfo_mission_ms.bin:0x1c2
+Rescuing Ashley
+@common.h2z:stgnfo_mission_ms.bin:0x1d6
+Church
+@common.h2z:stgnfo_mission_ms.bin:0x1dd
+Leon slips into the|church. Could Ashley|be held there...?
+@common.h2z:stgnfo_mission_ms.bin:0x236
+Under Siege
+@common.h2z:stgnfo_mission_ms.bin:0x24a
+Barricaded Cabin
+@common.h2z:stgnfo_mission_ms.bin:0x25e
+The villagers close in|on the house where|Leon is holed up.
+@common.h2z:stgnfo_mission_ms.bin:0x2a5
+To the Great Castle
+@common.h2z:stgnfo_mission_ms.bin:0x2bb
+Battlements
+@common.h2z:stgnfo_mission_ms.bin:0x2cc
+Leon flees to the old|castle, but is a worse|fate waiting for him?
+@common.h2z:stgnfo_mission_ms.bin:0x325
+The Blind Weapon
+@common.h2z:stgnfo_mission_ms.bin:0x331
+Audience Hall
+@common.h2z:stgnfo_mission_ms.bin:0x347
+As Leon searches for a|way out, the iron|guardian Garrador appears!
+@common.h2z:stgnfo_mission_ms.bin:0x3a6
+Two Guardians
+@common.h2z:stgnfo_mission_ms.bin:0x3bc
+Lookout Corridor
+@common.h2z:stgnfo_mission_ms.bin:0x3ce
+Standing between Ashley|and Leon is not one but|two Garradors.
+@common.h2z:stgnfo_mission_ms.bin:0x41f
+Reunion
+@common.h2z:stgnfo_mission_ms.bin:0x428
+Main Hall
+@common.h2z:stgnfo_mission_ms.bin:0x437
+Leon rescues Ashley, but|the Ganados take her|again!
+@common.h2z:stgnfo_mission_ms.bin:0x483
+The Furnace
+@common.h2z:stgnfo_mission_ms.bin:0x48e
+Furnace
+@common.h2z:stgnfo_mission_ms.bin:0x497
+A trap pits Leon against|a true nightmare: two|El Gigantes!
+@common.h2z:stgnfo_mission_ms.bin:0x4f1
+The Deadliest Assassin
+@common.h2z:stgnfo_mission_ms.bin:0x507
+Old Irrigation Canal
+@common.h2z:stgnfo_mission_ms.bin:0x522
+Waiting for Leon at the|old canal is the deadly|assassin, Verdugo!
+
+# ---- 3d_base.h2z:sys_param.bin (action prompts, names, shop; resized per section)
+@3d_base.h2z:sys_param.bin:0x68
+Action: Pick up
+@3d_base.h2z:sys_param.bin:0x78
+Action: Examine
+@3d_base.h2z:sys_param.bin:0x89
+Action: Open
+@3d_base.h2z:sys_param.bin:0x97
+Action: Climb up
+@3d_base.h2z:sys_param.bin:0xa5
+Action: Climb down
+@3d_base.h2z:sys_param.bin:0xb4
+Action: Knock down
+@3d_base.h2z:sys_param.bin:0xc5
+Action: Raise ladder
+@3d_base.h2z:sys_param.bin:0xdd
+Action: Struggle
+@3d_base.h2z:sys_param.bin:0xed
+Action: Jump out
+@3d_base.h2z:sys_param.bin:0xfc
+Action: Take
+@3d_base.h2z:sys_param.bin:0x10a
+Action: Operate
+@3d_base.h2z:sys_param.bin:0x119
+Action: Climb
+@3d_base.h2z:sys_param.bin:0x129
+Action: Jump over
+@3d_base.h2z:sys_param.bin:0x137
+Action: Kick
+@3d_base.h2z:sys_param.bin:0x146
+Action: Dodge
+@3d_base.h2z:sys_param.bin:0x157
+Action: Duck
+@3d_base.h2z:sys_param.bin:0x1c8
+%d PTAS acquired
+@3d_base.h2z:sys_param.bin:0x1da
+Available. Take it?
+@3d_base.h2z:sys_param.bin:0x1f5
+acquired
+@3d_base.h2z:sys_param.bin:0x200
+%s(%d shot)
+@3d_base.h2z:sys_param.bin:0x20c
+YES
+@3d_base.h2z:sys_param.bin:0x210
+NO
+@3d_base.h2z:sys_param.bin:0x215
+USE
+@3d_base.h2z:sys_param.bin:0x21a
+Your inventory is full!
+
+# ---- 3d_base.h2z:mis_data_m*.bin (extra mission messages; text section resized)
+@3d_base.h2z:mis_data_m01.bin:0x550
+Take down as many as you|can within the time limit.
+@3d_base.h2z:mis_data_m01.bin:0x582
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m01.bin:0x5cd
+This door is|locked tight.
+@3d_base.h2z:mis_data_m02.bin:0x620
+Take down as many as you|can within the time limit.|Try the shotgun.
+@3d_base.h2z:mis_data_m02.bin:0x66c
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m02.bin:0x6b7
+This door is|locked tight.
+@3d_base.h2z:mis_data_m03.bin:0x644
+Take down as many as you|can within the time limit.|Can you get them all?
+@3d_base.h2z:mis_data_m03.bin:0x693
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m03.bin:0x6de
+All enemies have|been defeated.
+@3d_base.h2z:mis_data_m03.bin:0x703
+This door is|locked tight.
+@3d_base.h2z:mis_data_m04.bin:0x5bc
+Take down as many as you|can within the time limit.|Watch your back!
+@3d_base.h2z:mis_data_m04.bin:0x609
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m04.bin:0x655
+The door is locked tight.
+@3d_base.h2z:mis_data_m04.bin:0x673
+You can't leave the|meeting point.
+@3d_base.h2z:mis_data_m05.bin:0x538
+Take down as many as you|can within the time limit.|Try the rifle.
+@3d_base.h2z:mis_data_m05.bin:0x580
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m06.bin:0x680
+Take down as many as you|can within the time limit.|Watch your ammo!
+@3d_base.h2z:mis_data_m06.bin:0x6cc
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m06.bin:0x718
+Leon leaps onto the chandelier|and swings across!
+@3d_base.h2z:mis_data_m06.bin:0x74f
+Leon climbed the stairs.
+@3d_base.h2z:mis_data_m06.bin:0x764
+This door is|locked tight.
+@3d_base.h2z:mis_data_m07.bin:0x66c
+Get Ashley to the door|in time.
+@3d_base.h2z:mis_data_m07.bin:0x696
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m07.bin:0x6e1
+You can't leave|without Ashley.
+@3d_base.h2z:mis_data_m07.bin:0x703
+Leon and Ashley reach|the exit.
+@3d_base.h2z:mis_data_m07.bin:0x72f
+Leon can't go back.
+@3d_base.h2z:mis_data_m08.bin:0x810
+Get Ashley to the door|within the time limit.
+@3d_base.h2z:mis_data_m08.bin:0x83a
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m08.bin:0x886
+You can't leave|without Ashley.
+@3d_base.h2z:mis_data_m08.bin:0x8a8
+You opened the door|with the Old Key.
+@3d_base.h2z:mis_data_m08.bin:0x8d0
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_m08.bin:0x8ff
+Leon meets up with Ashley|and reaches the exit.
+@3d_base.h2z:mis_data_m08.bin:0x92b
+Leon can't go back.
+@3d_base.h2z:mis_data_m09.bin:0x56c
+Take down as many as you|can within the time limit.|Beware of parasites!
+@3d_base.h2z:mis_data_m09.bin:0x5b3
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m09.bin:0x5fe
+This door is|locked tight.
+@3d_base.h2z:mis_data_m10.bin:0x5cc
+Protect Ashley for|a period of time.
+@3d_base.h2z:mis_data_m10.bin:0x5f6
+The attacks stopped.|In the end, I managed|to keep Ashley safe.
+@3d_base.h2z:mis_data_m10.bin:0x63c
+There are holes everywhere.|Ashley and Leon must guard|the 1st and 2nd floors.
+@3d_base.h2z:mis_data_m10.bin:0x691
+You can't go on if you|split up or leave|Ashley behind.
+@3d_base.h2z:mis_data_m11.bin:0x724
+Defeat your enemies|within the time limit|and head for the exit.
+@3d_base.h2z:mis_data_m11.bin:0x762
+You made it out of|the mine.
+@3d_base.h2z:mis_data_m11.bin:0x786
+With El Gigante|defeated, the fortress|can be reached.
+@3d_base.h2z:mis_data_m11.bin:0x7c2
+It's locked. Something|seems to be blocking|the way.
+@3d_base.h2z:mis_data_m11.bin:0x7fb
+Leon climbs onto|El Gigante's back.
+@3d_base.h2z:mis_data_m11.bin:0x82b
+Leon cuts the tentacle|sticking out of|El Gigante's back!
+@3d_base.h2z:mis_data_m12.bin:0x520
+Take down as many as you|can within the time limit.|Careful!
+@3d_base.h2z:mis_data_m12.bin:0x559
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m12.bin:0x5a5
+This door is|locked tight.
+@3d_base.h2z:mis_data_m13.bin:0x554
+Take down as many as you|can within the time limit.|Use the oil drums.
+@3d_base.h2z:mis_data_m13.bin:0x59c
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m13.bin:0x5e7
+You can't leave the|meeting point.
+@3d_base.h2z:mis_data_m13.bin:0x614
+This door is|locked tight.
+@3d_base.h2z:mis_data_m14.bin:0x5cc
+Take down as many as you|can within the time limit.|Think you can drop them all?
+@3d_base.h2z:mis_data_m14.bin:0x614
+We're done here.|On to the|next mission.
+@3d_base.h2z:mis_data_m14.bin:0x64f
+All enemies have|been defeated.
+@3d_base.h2z:mis_data_m14.bin:0x674
+This door is|locked tight.
+@3d_base.h2z:mis_data_m15.bin:0x97c
+Find Ashley within the|time limit and head for|the horse statue.
+@3d_base.h2z:mis_data_m15.bin:0x9c8
+We're done here.|On to the|next mission.
+@3d_base.h2z:mis_data_m15.bin:0xa03
+Leon can't go on|without Ashley.
+@3d_base.h2z:mis_data_m15.bin:0xa29
+Leon can't go on|without rescuing|Ashley first.
+@3d_base.h2z:mis_data_m15.bin:0xa5f
+You opened the door|with the Old Key.
+@3d_base.h2z:mis_data_m15.bin:0xa87
+It's locked.|Looks like a key|is needed here.
+@3d_base.h2z:mis_data_m15.bin:0xac7
+Leon reaches the horse|statue after meeting|up with Ashley.
+@3d_base.h2z:mis_data_m15.bin:0xb09
+Leon has regrouped with|Ashley. Head for the|exit now.
+@3d_base.h2z:mis_data_m15.bin:0xb42
+This door is|locked tight.
+@3d_base.h2z:mis_data_m16.bin:0x58c
+Take down as many as you|can within the time|limit. Don't hit Ashley!!
+@3d_base.h2z:mis_data_m16.bin:0x5d4
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m16.bin:0x61f
+You can't leave the|meeting point.
+@3d_base.h2z:mis_data_m16.bin:0x64c
+This door is|locked tight.
+@3d_base.h2z:mis_data_m17.bin:0x4f4
+Take down as many as you|can within the time limit.|Get some help!!
+@3d_base.h2z:mis_data_m17.bin:0x533
+We're done here.|On to the|next mission.
+@3d_base.h2z:mis_data_m17.bin:0x56e
+This door is|locked tight.
+@3d_base.h2z:mis_data_m18.bin:0x704
+Find Ashley within the|time limit and head|for the exit.
+@3d_base.h2z:mis_data_m18.bin:0x747
+The sound of a helicopter|echoes overhead. Looks|like backup has arrived.
+@3d_base.h2z:mis_data_m18.bin:0x792
+Leon can't go on|without Ashley.
+@3d_base.h2z:mis_data_m18.bin:0x7b8
+You'll need the|Castle Gate Key to|rescue Ashley.
+@3d_base.h2z:mis_data_m18.bin:0x7f5
+Leon regrouped with|Ashley and reached the exit.
+@3d_base.h2z:mis_data_m18.bin:0x825
+Leon can't go back.
+@3d_base.h2z:mis_data_m19.bin:0x518
+Take down as many as you|can within the time limit.|Use your grenades.
+@3d_base.h2z:mis_data_m19.bin:0x55e
+We're done here.|On to the|next mission.
+@3d_base.h2z:mis_data_m19.bin:0x599
+This door is|locked tight.
+@3d_base.h2z:mis_data_m20.bin:0x4b8
+Take down as many as you can|within the time limit.|Don't get surrounded!
+@3d_base.h2z:mis_data_m20.bin:0x4fb
+We're done here.|On to the|next mission.
+@3d_base.h2z:mis_data_m20.bin:0x536
+This door is|locked tight.
+@3d_base.h2z:mis_data_m21.bin:0xddc
+Take down as many as you can|within the time limit.|Beware of the furnace!
+@3d_base.h2z:mis_data_m21.bin:0xe24
+We're done here.|On to the|next mission.
+@3d_base.h2z:mis_data_m21.bin:0xe5f
+As soon as the attack|ends, two El Gigantes|appear!
+@3d_base.h2z:mis_data_m21.bin:0xe9e
+Leon climbs onto|El Gigante's back.
+@3d_base.h2z:mis_data_m21.bin:0xece
+Leon cuts the tentacle|sticking out of|El Gigante's back!
+@3d_base.h2z:mis_data_m21.bin:0xf09
+The hatch under El Gigante|opens, swallowing it in|a sea of molten iron.
+@3d_base.h2z:mis_data_m21.bin:0xf4c
+The furnace hatch|closed by itself.
+@3d_base.h2z:mis_data_m21.bin:0xf7f
+The furnace hatch|closed by itself.
+@3d_base.h2z:mis_data_m21.bin:0xfb2
+Time it right and you|can drop El Gigante|into that hatch.
+@3d_base.h2z:mis_data_m21.bin:0xfff
+Leon pulled the lever.|The furnace hatch|opened!
+@3d_base.h2z:mis_data_m21.bin:0x1039
+A safety device keeps|the lever from moving.
+@3d_base.h2z:mis_data_m21.bin:0x1072
+Looks like a lever that|opens the furnace|hatch.
+@3d_base.h2z:mis_data_m21.bin:0x10af
+This door is|locked tight.
+@3d_base.h2z:mis_data_m22.bin:0x8f4
+Find Ashley within the|time limit and take|the elevator.
+@3d_base.h2z:mis_data_m22.bin:0x933
+The canal rescue|was a success.
+@3d_base.h2z:mis_data_m22.bin:0x957
+The elevator is here.
+@3d_base.h2z:mis_data_m22.bin:0x96a
+You opened the door|with the Old Key.
+@3d_base.h2z:mis_data_m22.bin:0x992
+It's locked. Looks like|I need a key to|open it.
+@3d_base.h2z:mis_data_m22.bin:0x9d2
+The elevator is|powered up.
+@3d_base.h2z:mis_data_m22.bin:0x9ea
+Leon can't go on|without Ashley.
+@3d_base.h2z:mis_data_m22.bin:0xa10
+The power is off.|There must be a switch|somewhere.
+@3d_base.h2z:mis_data_m22.bin:0xa55
+Leon regrouped with|Ashley and reached|the elevator.
+@3d_base.h2z:mis_data_m22.bin:0xa88
+Leon can't go back.
+@3d_base.h2z:mis_data_m23.bin:0x9f8
+Take down as many as you|can within the time limit,|then head down.
+@3d_base.h2z:mis_data_m23.bin:0xa3b
+The canal rescue|was a success.
+@3d_base.h2z:mis_data_m23.bin:0xa5f
+It's locked. It was|open a minute|ago...
+@3d_base.h2z:mis_data_m23.bin:0xa95
+Verdugo must be|defeated before the|elevator arrives.
+@3d_base.h2z:mis_data_m23.bin:0xad1
+The elevator is here.
+@3d_base.h2z:mis_data_m23.bin:0xae4
+The door unlocked.
+@3d_base.h2z:mis_data_m23.bin:0xafb
+Leon got in the elevator.
+@3d_base.h2z:mis_data_m23.bin:0xb14
+The elevator still|hasn't come...
+@3d_base.h2z:mis_data_m23.bin:0xb35
+You used the power|control unit.
+@3d_base.h2z:mis_data_m23.bin:0xb62
+As the elevator starts|to move, Verdugo falls.
+@3d_base.h2z:mis_data_m23.bin:0xb95
+This isn't good.|It still won't open.
+@3d_base.h2z:mis_data_m23.bin:0xbb9
+The door locked.
+@3d_base.h2z:mis_data_m23.bin:0xbcd
+Area temporarily|closed while elevator|power is restored.
+@3d_base.h2z:mis_data_m23.bin:0xc18
+It will take a while|for these doors to|open again.
+@3d_base.h2z:mis_data_m24.bin:0x554
+Take down as many as you|can within the time limit.
+@3d_base.h2z:mis_data_m24.bin:0x586
+With the mission complete,|Leon leaves the area.
+@3d_base.h2z:mis_data_m24.bin:0x5c2
+This door is|locked tight.
+
+# ---- 3d_base.h2z:mis_data_s*.bin (story chapters; text section resized)
+@3d_base.h2z:mis_data_s00.bin:0x268
+Destroy as many blue coins|as you can within|the time limit!
+@3d_base.h2z:mis_data_s00.bin:0x2b4
+The farther away you shoot|a blue coin from, the|higher the score.
+@3d_base.h2z:mis_data_s01.bin:0x1a8c
+I'll never forget.
+@3d_base.h2z:mis_data_s01.bin:0x1a9e
+That was the year of the|horrific killings in|the Arklay Mountains.
+@3d_base.h2z:mis_data_s01.bin:0x1ae7
+It soon came out that|the Umbrella Corporation|was to blame.
+@3d_base.h2z:mis_data_s01.bin:0x1b23
+Then the virus spread|to nearby|Raccoon City...
+@3d_base.h2z:mis_data_s01.bin:0x1b61
+As people turned into zombies,|the whole city became|a living hell.
+@3d_base.h2z:mis_data_s01.bin:0x1bab
+Once the story leaked|to the public, the U.S.|President had no choice...
+@3d_base.h2z:mis_data_s01.bin:0x1bf7
+...he settled on a last|resort: sterilize|Raccoon City.
+@3d_base.h2z:mis_data_s01.bin:0x1c39
+The government then ordered|Umbrella to halt its|operations indefinitely.
+@3d_base.h2z:mis_data_s01.bin:0x1c89
+Its stock went into free|fall, and in time|Umbrella was no more.
+@3d_base.h2z:mis_data_s01.bin:0x1cdc
+Six years have passed|since that|horrible incident.
+@3d_base.h2z:mis_data_s01.bin:0x1d15
+I was trained by a secret|organization acting on|the President's behalf.
+@3d_base.h2z:mis_data_s01.bin:0x1d68
+I was to take on the job|of guarding the|President's family.
+@3d_base.h2z:mis_data_s01.bin:0x1da7
+Right before I started,|the President's|daughter...
+@3d_base.h2z:mis_data_s01.bin:0x1de6
+...was kidnapped, which is|why I'm out here in rural|Europe.
+@3d_base.h2z:mis_data_s01.bin:0x1e30
+We have a reliable report|of a girl matching her|description.
+@3d_base.h2z:mis_data_s01.bin:0x1e7f
+She seems to be with|a group of|unidentified people.
+@3d_base.h2z:mis_data_s01.bin:0x1ec6
+Who'd have thought my|first assignment would|be a rescue mission...
+@3d_base.h2z:mis_data_s01.bin:0x1f0d
+Leon reaches the remote|village with local police.
+@3d_base.h2z:mis_data_s01.bin:0x1f3e
+Reports say a new and|dangerous kind of zombie|has been sighted.
+@3d_base.h2z:mis_data_s01.bin:0x1f8b
+Who are these people?
+@3d_base.h2z:mis_data_s01.bin:0x1fa4
+With a roar, a man|wielding a chainsaw|appears.
+@3d_base.h2z:mis_data_s01.bin:0x1fde
+Great. A chainsaw.
+@3d_base.h2z:mis_data_s01.bin:0x1ffa
+Next to the others, the|man with the sack on|his head looks tough...
+@3d_base.h2z:mis_data_s01.bin:0x2040
+A plain handgun won't|be enough to drop him.
+@3d_base.h2z:mis_data_s01.bin:0x2075
+I need something with|a bit more|firepower.
+@3d_base.h2z:mis_data_s01.bin:0x20ab
+Hm, it won't open.|But it was open just|a moment ago.
+@3d_base.h2z:mis_data_s01.bin:0x20e8
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s01.bin:0x2117
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s01.bin:0x2146
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s01.bin:0x2175
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s01.bin:0x21a4
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s01.bin:0x21d3
+It's a basic|operation manual.
+@3d_base.h2z:mis_data_s01.bin:0x21f8
+Press {3} to check|your status.
+@3d_base.h2z:mis_data_s01.bin:0x2224
+Then choose "Files"|to read the manual.
+@3d_base.h2z:mis_data_s01.bin:0x2250
+You can change the controls|under Controls in Options.
+@3d_base.h2z:mis_data_s01.bin:0x228e
+Press {H} to open|the Options menu.
+@3d_base.h2z:mis_data_s01.bin:0x22b7
+It's a special|operation manual.
+@3d_base.h2z:mis_data_s01.bin:0x22dd
+A photo of Leon, taken|in secret, and a letter.
+@3d_base.h2z:mis_data_s01.bin:0x230f
+You can read these|files on the "Files"|screen of the Status menu.
+@3d_base.h2z:mis_data_s01.bin:0x2355
+You can equip weapons|on the Weapons screen|of your Status menu.
+@3d_base.h2z:mis_data_s01.bin:0x2395
+In the heat of the fight, a|church bell rings, and all|the villagers stop.
+@3d_base.h2z:mis_data_s01.bin:0x23e6
+At the sound of the bell,|the villagers calm down|and the attack ends.
+@3d_base.h2z:mis_data_s01.bin:0x2427
+As if led by someone,|they line up and file|into a house.
+@3d_base.h2z:mis_data_s01.bin:0x246f
+Where's everyone|going? Bingo?
+@3d_base.h2z:mis_data_s01.bin:0x2494
+They all seemed to have|lost their minds. It's like|I'm dreaming...
+@3d_base.h2z:mis_data_s01.bin:0x24dc
+The villagers are gone,|and Leon is left alone|in the village.
+@3d_base.h2z:mis_data_s02.bin:0x1340
+In an abandoned house,|a man lies tied up and|seems to need help.
+@3d_base.h2z:mis_data_s02.bin:0x138c
+Village chief Bitores|Mendez captures and|ties up Leon.
+@3d_base.h2z:mis_data_s02.bin:0x13c2
+Leon and the man are|hauled off to a|heavily guarded valley.
+@3d_base.h2z:mis_data_s02.bin:0x140a
+American, si? What brings|a guy like you to this|part of the world?
+@3d_base.h2z:mis_data_s02.bin:0x1455
+The name's Leon.
+@3d_base.h2z:mis_data_s02.bin:0x1467
+Leon tries to pull a|photo from his|back pocket.
+@3d_base.h2z:mis_data_s02.bin:0x149e
+I'm here looking for this|girl. Seen her?
+@3d_base.h2z:mis_data_s02.bin:0x14c8
+Let me guess...|she's the President's|daughter?
+@3d_base.h2z:mis_data_s02.bin:0x14fe
+The man overheard talk|outside: the girl is|supposedly in the church.
+@3d_base.h2z:mis_data_s02.bin:0x154d
+Me llamo Luis Sera.|I used to be a cop in|Madrid, but now I'm...
+@3d_base.h2z:mis_data_s02.bin:0x1596
+...a good-for-nothing who|happens to do very well|with the ladies.
+@3d_base.h2z:mis_data_s02.bin:0x15e2
+Why'd you quit?
+@3d_base.h2z:mis_data_s02.bin:0x15f5
+Hmph, police. You put|your life on the line and|nobody gives a damn.
+@3d_base.h2z:mis_data_s02.bin:0x163f
+I used to be a cop|too. Only for a day,|though.
+@3d_base.h2z:mis_data_s02.bin:0x167c
+And I thought|I had it bad.
+@3d_base.h2z:mis_data_s02.bin:0x169d
+Somehow I got myself|caught up in the Raccoon|City incident...
+@3d_base.h2z:mis_data_s02.bin:0x16e3
+The virus|outbreak.
+@3d_base.h2z:mis_data_s02.bin:0x1707
+I think I saw a sample|of the virus in the|department's lab.
+@3d_base.h2z:mis_data_s02.bin:0x174c
+As Luis talks, Ganados|armed with axes close|in on the two men.
+@3d_base.h2z:mis_data_s02.bin:0x179c
+...Now!
+@3d_base.h2z:mis_data_s02.bin:0x17a7
+Leon turns a Ganado's axe|to his advantage and cuts|the chains on his hands!
+@3d_base.h2z:mis_data_s02.bin:0x17fc
+Free of the chains,|Leon deals with the|Ganados attacking him.
+@3d_base.h2z:mis_data_s02.bin:0x1840
+But Luis had already|slipped away.
+@3d_base.h2z:mis_data_s02.bin:0x1868
+The door won't open.
+@3d_base.h2z:mis_data_s02.bin:0x1886
+Looks like something could|fit in this hexagonal|hole...
+@3d_base.h2z:mis_data_s02.bin:0x18c2
+You opened the door|with the hexagonal emblem.
+@3d_base.h2z:mis_data_s02.bin:0x18f1
+Something is written|on the grimy paper.
+@3d_base.h2z:mis_data_s02.bin:0x1916
+Leon escapes from|the valley.
+@3d_base.h2z:mis_data_s02.bin:0x1938
+Leon can't go back.
+@3d_base.h2z:mis_data_s03.bin:0xed8
+Worn out from the fight,|Leon rests inside|a small house.
+@3d_base.h2z:mis_data_s03.bin:0xf19
+There he has a|horrifying nightmare.
+@3d_base.h2z:mis_data_s03.bin:0xf41
+In his dream, he is|in agony.
+@3d_base.h2z:mis_data_s03.bin:0xf68
+Inside Leon's body,|something reacts violently|and Leon can't resist.
+@3d_base.h2z:mis_data_s03.bin:0xfb3
+Leon's veins start to|swell. Is he turning|into something inhuman??
+@3d_base.h2z:mis_data_s03.bin:0x100b
+At the peak of the|nightmare, Leon wakes up.
+@3d_base.h2z:mis_data_s03.bin:0x1034
+A dream...?
+@3d_base.h2z:mis_data_s03.bin:0x1041
+Leon wakes and finds|a note someone left|on the table:
+@3d_base.h2z:mis_data_s03.bin:0x1084
+"An important item is|hidden by the falls."
+@3d_base.h2z:mis_data_s03.bin:0x10b9
+"If you can reach it,|you should be able to|get Ashley out."
+@3d_base.h2z:mis_data_s03.bin:0x1108
+"But be careful, the road|to the church is guarded|by an "El Gigante"."
+@3d_base.h2z:mis_data_s03.bin:0x1153
+"About what is going|on in your body...|I'd help you if|I could."
+@3d_base.h2z:mis_data_s03.bin:0x11a7
+"But sadly it's|beyond my power."
+@3d_base.h2z:mis_data_s03.bin:0x11d6
+Whatever is in that|village isn't human...
+@3d_base.h2z:mis_data_s03.bin:0x11fb
+Leon knows that.
+@3d_base.h2z:mis_data_s03.bin:0x1210
+Even so, Leon can't|believe what he's|seeing.
+@3d_base.h2z:mis_data_s03.bin:0x1258
+In front of Leon, a|Ganado blocks|his way.
+@3d_base.h2z:mis_data_s03.bin:0x1292
+Its head is grotesque|and strange, and it starts|running toward Leon.
+@3d_base.h2z:mis_data_s03.bin:0x12e5
+On a rope leading down|beside the waterfall,|Leon slowly descends.
+@3d_base.h2z:mis_data_s03.bin:0x132d
+After the hard climb down,|Leon finds the key on the|far side of the waterfall.
+@3d_base.h2z:mis_data_s03.bin:0x137e
+Of all places, they hid|a key here?
+@3d_base.h2z:mis_data_s03.bin:0x13af
+This letter... It's|very detailed... Who the|hell wrote this?
+@3d_base.h2z:mis_data_s03.bin:0x13f0
+A letter with many|drafts and fine|handwriting.
+@3d_base.h2z:mis_data_s03.bin:0x1427
+Is this... a warning|to the villagers...?
+@3d_base.h2z:mis_data_s03.bin:0x144e
+Leon isn't facing|the waterfall.
+@3d_base.h2z:mis_data_s04.bin:0xc2c
+Leon takes the key and,|in the dead of night,|heads for the church.
+@3d_base.h2z:mis_data_s04.bin:0xc72
+But on the way there,|Leon passes through a mine.
+@3d_base.h2z:mis_data_s04.bin:0xca8
+Inside, the mine looks like|an arena, and there he|meets a giant.
+@3d_base.h2z:mis_data_s04.bin:0xcf4
+That's El Gigante? I|don't think this alone|will take him down...
+@3d_base.h2z:mis_data_s04.bin:0xd3b
+Once you defeat El|Gigante, the door opens|and you can move on.
+@3d_base.h2z:mis_data_s04.bin:0xd84
+If I don't reach|the church...!
+@3d_base.h2z:mis_data_s04.bin:0xda5
+Leon climbs onto|El Gigante's back.
+@3d_base.h2z:mis_data_s04.bin:0xdd4
+Leon cuts the tentacle|sticking out of|El Gigante's back!
+@3d_base.h2z:mis_data_s04.bin:0xe0f
+That tentacle... Is that|its weak spot?
+@3d_base.h2z:mis_data_s05.bin:0x1934
+A manual on how to|give Ashley orders.
+@3d_base.h2z:mis_data_s05.bin:0x1959
+After a long struggle,|Leon and Ashley finally|reach the exit.
+@3d_base.h2z:mis_data_s05.bin:0x19a4
+You have to get Ashley.
+@3d_base.h2z:mis_data_s05.bin:0x19c0
+You can't leave here|without finding Ashley.
+@3d_base.h2z:mis_data_s05.bin:0x19ee
+You opened the door with|the hexagonal emblem.
+@3d_base.h2z:mis_data_s05.bin:0x1a1d
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s05.bin:0x1a4c
+Ashley must be around|here somewhere...
+@3d_base.h2z:mis_data_s05.bin:0x1a7a
+Leon leaps onto the chandelier|and swings across!
+@3d_base.h2z:mis_data_s05.bin:0x1ab1
+Leon sets the ladder.
+@3d_base.h2z:mis_data_s05.bin:0x1ac8
+Leon finally reaches|the church.
+@3d_base.h2z:mis_data_s05.bin:0x1aea
+It's quiet inside, even|though a storm rages|outside.
+@3d_base.h2z:mis_data_s05.bin:0x1b37
+Where could Ashley be...?
+@3d_base.h2z:mis_data_s05.bin:0x1b52
+Leon begins his search.
+@3d_base.h2z:mis_data_s05.bin:0x1b6a
+As Leon and Ashley leave|the church, Saddler|appears before them.
+@3d_base.h2z:mis_data_s05.bin:0x1bbb
+The girl stays with me.
+@3d_base.h2z:mis_data_s05.bin:0x1bd6
+Who are you?
+@3d_base.h2z:mis_data_s05.bin:0x1be5
+If you must know, I am|Osmund Saddler, leader|of this fine community.
+@3d_base.h2z:mis_data_s05.bin:0x1c3c
+What do you want?
+@3d_base.h2z:mis_data_s05.bin:0x1c4e
+To show the whole world|our remarkable power,|of course.
+@3d_base.h2z:mis_data_s05.bin:0x1c93
+We took the girl to give|her our power and then|send her back.
+@3d_base.h2z:mis_data_s05.bin:0x1cdc
+Leon... I think they|injected something into|my neck.
+@3d_base.h2z:mis_data_s05.bin:0x1d14
+What did you do to her!?
+@3d_base.h2z:mis_data_s05.bin:0x1d2c
+We merely planted "a|little gift" for when she|is back with her father.
+@3d_base.h2z:mis_data_s05.bin:0x1d7d
+But first I thought I'd|ask the U.S. President|for a few donations.
+@3d_base.h2z:mis_data_s05.bin:0x1dc8
+Putting your faith in money|won't get you far,|Saddler.
+@3d_base.h2z:mis_data_s05.bin:0x1e00
+I believe I forgot to|mention: we gave you|the same gift.
+@3d_base.h2z:mis_data_s05.bin:0x1e45
+While I was|out cold...
+@3d_base.h2z:mis_data_s05.bin:0x1e64
+I hope you enjoy our|little gift. Once those|eggs hatch...
+@3d_base.h2z:mis_data_s05.bin:0x1eac
+...you will be my|puppets. What better way|to spread the faith?
+@3d_base.h2z:mis_data_s05.bin:0x1ef8
+Sounds more like an alien|invasion, if you ask me.
+@3d_base.h2z:mis_data_s05.bin:0x1f2e
+At Saddler's signal, a|pack of enemies charges|at Leon!
+@3d_base.h2z:mis_data_s05.bin:0x1f77
+Leon and Ashley dodge the|attack and escape by|leaping through a window!
+@3d_base.h2z:mis_data_s05.bin:0x1fbd
+Are you all right?
+@3d_base.h2z:mis_data_s05.bin:0x1fce
+Leon, what's going to|happen to us!?
+@3d_base.h2z:mis_data_s05.bin:0x1ff1
+Don't worry. We got|into this mess, and|we'll get out of it.
+@3d_base.h2z:mis_data_s05.bin:0x203a
+Having saved Ashley,|Leon runs into a|new problem...
+@3d_base.h2z:mis_data_s05.bin:0x207c
+A short figure appears in|front of Leon and Ashley,|then quickly vanishes.
+@3d_base.h2z:mis_data_s05.bin:0x20d0
+Ashley!
+@3d_base.h2z:mis_data_s05.bin:0x20d8
+Leon finds a girl.|Ashley cowers in a corner|of the room, frightened.
+@3d_base.h2z:mis_data_s05.bin:0x2122
+Get back!
+@3d_base.h2z:mis_data_s05.bin:0x212e
+Hey! Calm down, Ashley...
+@3d_base.h2z:mis_data_s05.bin:0x2147
+It's going to be okay.|I'm Leon. I've been sent|to rescue you.
+@3d_base.h2z:mis_data_s05.bin:0x218f
+Hearing Leon, Ashley|calms down, relief|showing on her face.
+@3d_base.h2z:mis_data_s05.bin:0x21d5
+M-My father?
+@3d_base.h2z:mis_data_s05.bin:0x21e0
+That's right, and I have|to get you out of here.
+@3d_base.h2z:mis_data_s05.bin:0x2208
+Leon and Ashley climb|the ladder.
+@3d_base.h2z:mis_data_s06.bin:0x1040
+There are holes everywhere...|Ashley and Leon must watch|the 1st and 2nd floors.
+@3d_base.h2z:mis_data_s06.bin:0x1099
+You can't go on if you|split up or leave Ashley|behind.
+@3d_base.h2z:mis_data_s06.bin:0x10dc
+Pages from an old|magazine fall to the floor.
+@3d_base.h2z:mis_data_s06.bin:0x110a
+Leon and Ashley try to|escape across the|suspension bridge.
+@3d_base.h2z:mis_data_s06.bin:0x1144
+But the rescue chopper|is shot down, and an|ambush closes in.
+@3d_base.h2z:mis_data_s06.bin:0x1194
+What do we do, Leon?
+@3d_base.h2z:mis_data_s06.bin:0x11ad
+I hate to say it, but|we're surrounded. Into|that cabin.
+@3d_base.h2z:mis_data_s06.bin:0x11e5
+The two take refuge in the|cabin. Leon shuts the door|and bolts it tight.
+@3d_base.h2z:mis_data_s06.bin:0x122b
+When they turn around,|Luis is in the room.
+@3d_base.h2z:mis_data_s06.bin:0x1258
+We meet again.
+@3d_base.h2z:mis_data_s06.bin:0x1271
+Ashley steps behind|Leon to hide her|worry.
+@3d_base.h2z:mis_data_s06.bin:0x12b3
+Well, I see the President|taught his daughter|about ballistics.
+@3d_base.h2z:mis_data_s06.bin:0x12f0
+How rude! I don't think my|figure has anything to do|with this. Who are you?
+@3d_base.h2z:mis_data_s06.bin:0x1349
+Speaking of rude. Maybe|you'd like to introduce|yourself first?
+@3d_base.h2z:mis_data_s06.bin:0x1389
+I'm Ashley Graham,|the President's daughter.
+@3d_base.h2z:mis_data_s06.bin:0x13bc
+Is she... you know?
+@3d_base.h2z:mis_data_s06.bin:0x13d5
+Don't worry.|She's fine.
+@3d_base.h2z:mis_data_s06.bin:0x13f7
+Ashley looks at Leon with|a puzzled expression.
+@3d_base.h2z:mis_data_s06.bin:0x1428
+Relax, there's supposed to|be some obvious symptom|before you turn...
+@3d_base.h2z:mis_data_s06.bin:0x1477
+Look!
+@3d_base.h2z:mis_data_s06.bin:0x147d
+Ashley points at the window.|Ganados are already|surrounding the house.
+@3d_base.h2z:mis_data_s06.bin:0x14bb
+Upstairs, Ashley!
+@3d_base.h2z:mis_data_s06.bin:0x14d1
+Leon and Luis hold off|the Ganado attack and|force them to fall back.
+@3d_base.h2z:mis_data_s06.bin:0x151e
+They seem to be pulling|back. What now?
+@3d_base.h2z:mis_data_s06.bin:0x154e
+The bridge I came over|is gone. So I guess we|have to keep going.
+@3d_base.h2z:mis_data_s06.bin:0x15a3
+I forgot something.|You two go on ahead.|I'll catch up later.
+@3d_base.h2z:mis_data_s06.bin:0x15f1
+Luis goes back into the|cabin, leaving you two|to head off alone.
+@3d_base.h2z:mis_data_s06.bin:0x162f
+Luis... who is this guy?|And he said he forgot|something...?
+@3d_base.h2z:mis_data_s06.bin:0x166f
+We have no choice. I have to|find another route and get|Ashley out of here.
+@3d_base.h2z:mis_data_s06.bin:0x16b8
+After Luis leaves, Ashley|and Leon stand in front|of the cabin.
+@3d_base.h2z:mis_data_s07.bin:0x13b4
+At the top, men in red|robes and strange|masks. The leaders?
+@3d_base.h2z:mis_data_s07.bin:0x1401
+At the leaders' command,|the others hurl flaming|rocks from catapults!
+@3d_base.h2z:mis_data_s07.bin:0x144d
+Leon can't go back.
+@3d_base.h2z:mis_data_s07.bin:0x1468
+The castle gate|is locked.
+@3d_base.h2z:mis_data_s07.bin:0x148e
+With Ashley's help,|Leon manages to fire|the cannon.
+@3d_base.h2z:mis_data_s07.bin:0x14cb
+This... looks like a rifle|instruction manual.
+@3d_base.h2z:mis_data_s07.bin:0x1501
+Despite Leon fighting|back, the Ganados|press on fearlessly.
+@3d_base.h2z:mis_data_s07.bin:0x1542
+Giving up the fight, Leon|and Ashley flee into an old|castle and raise the bridge.
+@3d_base.h2z:mis_data_s07.bin:0x1599
+Leon and Ashley are|out of options.
+@3d_base.h2z:mis_data_s07.bin:0x15bf
+Los Illuminados, controlled|by the parasites, are|in the castle.
+@3d_base.h2z:mis_data_s07.bin:0x1601
+The two have stepped into|a whirlwind of madness.
+@3d_base.h2z:mis_data_s07.bin:0x1639
+Blast after blast, then|a suffocating|heat!
+@3d_base.h2z:mis_data_s07.bin:0x1676
+The shell slams into the|castle gate, reducing|it to rubble.
+@3d_base.h2z:mis_data_s07.bin:0x16c2
+No one will rescue us if|we stay here. We have to|get out somehow.
+@3d_base.h2z:mis_data_s07.bin:0x1715
+Leon escapes the castle and|finds Luis running up and|calling out to him.
+@3d_base.h2z:mis_data_s07.bin:0x175b
+Luis.
+@3d_base.h2z:mis_data_s07.bin:0x1761
+I've got something|for you two.
+@3d_base.h2z:mis_data_s07.bin:0x1780
+Luis digs through his|pockets for something,|but can't find it.
+@3d_base.h2z:mis_data_s07.bin:0x17bf
+Luis's face turns from|relief to annoyance.
+@3d_base.h2z:mis_data_s07.bin:0x17f2
+Damn! I must have dropped|the drug while I was|running from them.
+@3d_base.h2z:mis_data_s07.bin:0x1834
+Drug?
+@3d_base.h2z:mis_data_s07.bin:0x183b
+To stop your seizures,|since you're both hosts.|Coughed up blood, right?
+@3d_base.h2z:mis_data_s07.bin:0x1890
+Uh-huh...
+@3d_base.h2z:mis_data_s07.bin:0x1898
+Yes...
+@3d_base.h2z:mis_data_s07.bin:0x189f
+Damn it. The eggs hatched.|We don't have much time.
+@3d_base.h2z:mis_data_s07.bin:0x18d6
+What are you talking about?
+@3d_base.h2z:mis_data_s07.bin:0x18f2
+I have to go back for it.
+@3d_base.h2z:mis_data_s07.bin:0x190f
+I'll go with you.
+@3d_base.h2z:mis_data_s07.bin:0x191d
+You stay here with Leon.|He's better with girls.|I'm sure of it.
+@3d_base.h2z:mis_data_s07.bin:0x1963
+Why are you...
+@3d_base.h2z:mis_data_s07.bin:0x1973
+It makes me feel better.|Let's leave it at that.
+@3d_base.h2z:mis_data_s07.bin:0x19a2
+Luis leaves Ashley and|Leon behind.
+@3d_base.h2z:mis_data_s07.bin:0x19c5
+It's not just a parasite,|but something that can|control its host.
+@3d_base.h2z:mis_data_s07.bin:0x1a0c
+Luis definitely has|something they want.
+@3d_base.h2z:mis_data_s07.bin:0x1a3c
+But why is he|helping us?
+@3d_base.h2z:mis_data_s07.bin:0x1a60
+To get through the castle|gate... Could we|use this?
+@3d_base.h2z:mis_data_s07.bin:0x1a9d
+Leon, can you really|use that thing?
+@3d_base.h2z:mis_data_s07.bin:0x1ac0
+Don't worry.|I'll hold them off.|Ashley, get it ready.
+@3d_base.h2z:mis_data_s07.bin:0x1af9
+Okay, got it.
+@3d_base.h2z:mis_data_s07.bin:0x1b08
+Ashley isn't|near you.
+@3d_base.h2z:mis_data_s07.bin:0x1b2a
+This cannon can be used,|but it has to be|worked by hand.
+@3d_base.h2z:mis_data_s07.bin:0x1b66
+Do you want Ashley's help?
+@3d_base.h2z:mis_data_s08.bin:0x12f0
+Leon can't go back.
+@3d_base.h2z:mis_data_s08.bin:0x130b
+You hear something|moving down below,|in the dungeon.
+@3d_base.h2z:mis_data_s08.bin:0x134d
+You used the Prison Key|to open the door.
+@3d_base.h2z:mis_data_s08.bin:0x1384
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s08.bin:0x13b3
+Locked. It won't open|until we beat everyone here.
+@3d_base.h2z:mis_data_s08.bin:0x13e8
+Garrador, a monster with|sewn-shut eyes, comes|face to face with Leon.
+@3d_base.h2z:mis_data_s08.bin:0x1429
+But if Leon gets too|close and makes noise,|the monster flies into a rage.
+@3d_base.h2z:mis_data_s08.bin:0x147c
+It can't see Leon, but he|must dodge its claws|and run for the wall.
+@3d_base.h2z:mis_data_s08.bin:0x14ce
+That thing... hunts by sound?|In that case...
+@3d_base.h2z:mis_data_s08.bin:0x1507
+...I have to get around|it without a sound...
+@3d_base.h2z:mis_data_s08.bin:0x1532
+The fire from the statue|above seems to have died.
+@3d_base.h2z:mis_data_s08.bin:0x1568
+Join up with Ashley|and head for the exit.
+@3d_base.h2z:mis_data_s08.bin:0x1593
+Leon has to find Ashley|before moving on.
+@3d_base.h2z:mis_data_s08.bin:0x15c1
+Unless the fire goes|out, Leon can't|move on.
+@3d_base.h2z:mis_data_s08.bin:0x15f9
+Leon enters the room, and|at the back stand 2|fire-breathing statues!
+@3d_base.h2z:mis_data_s08.bin:0x163b
+We need a way to put|out this fire before|we go on...
+@3d_base.h2z:mis_data_s08.bin:0x1681
+It's a bell. If you hit|it, it'll make a loud noise.
+@3d_base.h2z:mis_data_s08.bin:0x16bc
+Is this... orders for|the followers?
+@3d_base.h2z:mis_data_s08.bin:0x16e5
+There's a note here.|Looks like Luis's writing.
+@3d_base.h2z:mis_data_s08.bin:0x1717
+A key is stuck|inside the frame.
+@3d_base.h2z:mis_data_s08.bin:0x1740
+Leon and Ashley managed|to sneak into|the castle.
+@3d_base.h2z:mis_data_s08.bin:0x177e
+The castle is a maze-like|place with many dangers|lurking about.
+@3d_base.h2z:mis_data_s08.bin:0x17c5
+Compared to the village,|the enemies here are more|dangerous and cunning.
+@3d_base.h2z:mis_data_s08.bin:0x180e
+Leon knows that rescuing|and protecting Ashley is|his top priority.
+@3d_base.h2z:mis_data_s08.bin:0x1855
+But something inside Leon|is making him more|violent.
+@3d_base.h2z:mis_data_s08.bin:0x1894
+We can't let this go on|any longer. We have to|end it here!
+@3d_base.h2z:mis_data_s08.bin:0x18df
+With nowhere to run, Leon|fights through the dead end|and pushes on.
+@3d_base.h2z:mis_data_s08.bin:0x192e
+Leon breaks the statue.
+@3d_base.h2z:mis_data_s09.bin:0xc30
+Leon can't go back,|and must rescue Ashley|to move on.
+@3d_base.h2z:mis_data_s09.bin:0xc76
+You hear a mechanism|moving up above.
+@3d_base.h2z:mis_data_s09.bin:0xca9
+The door is open,|you can go ahead.
+@3d_base.h2z:mis_data_s09.bin:0xcd5
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s09.bin:0xd04
+Ashley is captured again.
+@3d_base.h2z:mis_data_s09.bin:0xd23
+The cult members take|Ashley to meet the others|at the back of the castle.
+@3d_base.h2z:mis_data_s09.bin:0xd7d
+Leon pushes past the Ganados|to save Ashley before|the "ritual" takes place.
+@3d_base.h2z:mis_data_s09.bin:0xdca
+Some time later, Leon|reaches the tower where|Ashley is held.
+@3d_base.h2z:mis_data_s09.bin:0xe0f
+Not only Los Illuminados|guard this place, but|Garradors as well.
+@3d_base.h2z:mis_data_s09.bin:0xe55
+Two of them at once.|This won't be a walk|in the park.
+@3d_base.h2z:mis_data_s09.bin:0xe95
+They haven't noticed me|yet... My chance to do|some damage.
+@3d_base.h2z:mis_data_s09.bin:0xed8
+The gatekeeper|enters the corridor.
+@3d_base.h2z:mis_data_s10.bin:0x1378
+When you defeat the|leader, a key will drop.
+@3d_base.h2z:mis_data_s10.bin:0x13aa
+Ashley, we need|that key.
+@3d_base.h2z:mis_data_s10.bin:0x13cd
+Okay, I'll try.
+@3d_base.h2z:mis_data_s10.bin:0x13dd
+Leon meets up with Ashley|and reaches the exit.
+@3d_base.h2z:mis_data_s10.bin:0x1409
+Leon can't go on|without Ashley.
+@3d_base.h2z:mis_data_s10.bin:0x142e
+Leon can't go on|without Ashley.
+@3d_base.h2z:mis_data_s10.bin:0x1453
+Leon can't go back.
+@3d_base.h2z:mis_data_s10.bin:0x146e
+It's locked. I need|a key to open it.
+@3d_base.h2z:mis_data_s10.bin:0x149d
+Ashley used the key.|The door is open now.
+@3d_base.h2z:mis_data_s10.bin:0x14cf
+Leon! I got the key.|Looks like we can|get out now!
+@3d_base.h2z:mis_data_s10.bin:0x1509
+Leon enters the main hall|to look for Ashley, and Luis|comes running in.
+@3d_base.h2z:mis_data_s10.bin:0x1553
+Suddenly, Saddler's tentacle|runs Luis through|the chest.
+@3d_base.h2z:mis_data_s10.bin:0x1594
+The sample falls from Luis's|hand into Saddler's.
+@3d_base.h2z:mis_data_s10.bin:0x15ce
+Luis, hang on.
+@3d_base.h2z:mis_data_s10.bin:0x15e3
+I'm a researcher. Saddler|hired me. He found out|what I was planning...
+@3d_base.h2z:mis_data_s10.bin:0x1632
+Don't talk.
+@3d_base.h2z:mis_data_s10.bin:0x163d
+Here...
+@3d_base.h2z:mis_data_s10.bin:0x1645
+Luis reaches into his pocket|and hands Leon a drug.
+@3d_base.h2z:mis_data_s10.bin:0x167d
+This should hold back|the parasite's growth.|The sample...
+@3d_base.h2z:mis_data_s10.bin:0x16ba
+Saddler has it. You have|to get it back...
+@3d_base.h2z:mis_data_s10.bin:0x16ec
+Remember, Leon... I was|a cop too. I wasn't|kidding about that...
+@3d_base.h2z:mis_data_s10.bin:0x172f
+Luis!
+@3d_base.h2z:mis_data_s10.bin:0x1735
+Luis is dead. But the drug|he gave Leon should buy|him some more time.
+@3d_base.h2z:mis_data_s10.bin:0x1786
+Leon found Ashley down|below, unharmed.
+@3d_base.h2z:mis_data_s10.bin:0x17ad
+Leon has to shoot the|chains above to|free Ashley.
+@3d_base.h2z:mis_data_s10.bin:0x17f0
+I wonder what would have|happened if they'd got|to me before you.
+@3d_base.h2z:mis_data_s10.bin:0x1836
+Ashley starts to calm down.
+@3d_base.h2z:mis_data_s10.bin:0x1853
+Los Illuminados start to|fill the room.
+@3d_base.h2z:mis_data_s10.bin:0x1882
+Los Illuminados start|to surround Ashley.
+@3d_base.h2z:mis_data_s10.bin:0x18ac
+With no one to protect her,|Ashley crouches down with|her hands over her head.
+@3d_base.h2z:mis_data_s10.bin:0x18f6
+They want Ashley!
+@3d_base.h2z:mis_data_s10.bin:0x190a
+Ashley, get out of there!
+@3d_base.h2z:mis_data_s10.bin:0x191d
+Leon manages to rescue|Ashley.
+@3d_base.h2z:mis_data_s10.bin:0x193d
+Leon!
+@3d_base.h2z:mis_data_s10.bin:0x1943
+Ashley opens the door Leon|is standing behind. She|throws herself into his arms.
+@3d_base.h2z:mis_data_s10.bin:0x199a
+After so long the two are|together again, but they've|been through a lot.
+@3d_base.h2z:mis_data_s10.bin:0x19f0
+Ashley! You're all right.
+@3d_base.h2z:mis_data_s10.bin:0x1a09
+Sorry if I...
+@3d_base.h2z:mis_data_s10.bin:0x1a1b
+Don't worry about it.
+@3d_base.h2z:mis_data_s10.bin:0x1a36
+Leon...
+@3d_base.h2z:mis_data_s10.bin:0x1a3e
+Come on, we have to go.
+@3d_base.h2z:mis_data_s11.bin:0x129c
+Leon climbs onto|El Gigante's back.
+@3d_base.h2z:mis_data_s11.bin:0x12cb
+Leon cuts the tentacle|sticking out of|El Gigante's back!
+@3d_base.h2z:mis_data_s11.bin:0x1306
+The hatch under El Gigante|opens, swallowing it in|a sea of molten iron.
+@3d_base.h2z:mis_data_s11.bin:0x1349
+The furnace hatch|closed by itself.
+@3d_base.h2z:mis_data_s11.bin:0x137c
+The furnace hatch|closed by itself.
+@3d_base.h2z:mis_data_s11.bin:0x13af
+Time it right and you|can drop El Gigante|into that hatch.
+@3d_base.h2z:mis_data_s11.bin:0x13fc
+Leon can't go back.
+@3d_base.h2z:mis_data_s11.bin:0x1417
+Locked. Something seems|to be blocking it.
+@3d_base.h2z:mis_data_s11.bin:0x1442
+Leon pulled the lever.|The furnace hatch|opened!
+@3d_base.h2z:mis_data_s11.bin:0x147c
+A safety device keeps|the lever from moving.
+@3d_base.h2z:mis_data_s11.bin:0x14b5
+Leon and Ashley look for a|way out of the castle again,|but the enemy is waiting.
+@3d_base.h2z:mis_data_s11.bin:0x1511
+In an instant, Ashley|is captured again.
+@3d_base.h2z:mis_data_s11.bin:0x153f
+Giving chase, Leon falls|into a trap and drops to|the castle's lower levels.
+@3d_base.h2z:mis_data_s11.bin:0x158e
+I won't fall for that|old trick.
+@3d_base.h2z:mis_data_s11.bin:0x15b1
+Hang on, Ashley, I'm coming!
+@3d_base.h2z:mis_data_s11.bin:0x15ce
+Two El Gigantes wait for|Leon deep in the castle.
+@3d_base.h2z:mis_data_s11.bin:0x1608
+Two against one is|definitely not fair.
+@3d_base.h2z:mis_data_s11.bin:0x163f
+This looks like the|furnace...
+@3d_base.h2z:mis_data_s11.bin:0x165e
+Leon entered the|furnace area.
+@3d_base.h2z:mis_data_s12.bin:0x1acc
+Leon can't go back.
+@3d_base.h2z:mis_data_s12.bin:0x1ae7
+Locked. It was open|a while ago...
+@3d_base.h2z:mis_data_s12.bin:0x1b17
+The liquid nitrogen tank|looks easy to|break.
+@3d_base.h2z:mis_data_s12.bin:0x1b5a
+Leon quickly smashes|the liquid nitrogen|tank.
+@3d_base.h2z:mis_data_s12.bin:0x1b9a
+Liquid nitrogen starts|spraying out violently!
+@3d_base.h2z:mis_data_s12.bin:0x1bd4
+A scribbled note|lies on the floor.
+@3d_base.h2z:mis_data_s12.bin:0x1bfd
+The door unlocked.
+@3d_base.h2z:mis_data_s12.bin:0x1c11
+As Leon shuts the door,|something drops from above.
+@3d_base.h2z:mis_data_s12.bin:0x1c3f
+It looks like an insect|with a thick shell.
+@3d_base.h2z:mis_data_s12.bin:0x1c70
+It shows high|intelligence and quick|reflexes.
+@3d_base.h2z:mis_data_s12.bin:0x1cac
+The deadly assassin,|Verdugo.
+@3d_base.h2z:mis_data_s12.bin:0x1cca
+This guy is unlike|anything before...
+@3d_base.h2z:mis_data_s12.bin:0x1cf3
+But I've come too far|to give up now. I have|to save Ashley!
+@3d_base.h2z:mis_data_s12.bin:0x1d3e
+The elevator is here.
+@3d_base.h2z:mis_data_s12.bin:0x1d51
+Leon got in the elevator.
+@3d_base.h2z:mis_data_s12.bin:0x1d6a
+This is the elevator|lever.
+@3d_base.h2z:mis_data_s12.bin:0x1d8b
+No power? The elevator|won't respond...
+@3d_base.h2z:mis_data_s12.bin:0x1dc0
+The elevator hasn't|come yet...
+@3d_base.h2z:mis_data_s12.bin:0x1de1
+Leon switched on the|power control unit.
+@3d_base.h2z:mis_data_s12.bin:0x1e14
+Looks like it'll take|about 4 minutes for the|elevator to arrive.
+@3d_base.h2z:mis_data_s12.bin:0x1e59
+This isn't good,|it still won't open.
+@3d_base.h2z:mis_data_s12.bin:0x1e7d
+It's locked.
+@3d_base.h2z:mis_data_s12.bin:0x1e8d
+The area is locked for|now while the elevator|power is repaired.
+@3d_base.h2z:mis_data_s12.bin:0x1eda
+It will take a while for|the doors to open again.
+@3d_base.h2z:mis_data_s12.bin:0x1f0f
+The worn-out elevator|slowly goes down.
+@3d_base.h2z:mis_data_s12.bin:0x1f38
+What the hell could be|waiting for Leon in this|old castle?
+@3d_base.h2z:mis_data_s12.bin:0x1f76
+Can Leon save Ashley and get|out of this nightmare alive?
+@3d_base.h2z:mis_data_s12.bin:0x1fae
+The religious cult,|Los Illuminados
+@3d_base.h2z:mis_data_s12.bin:0x1fcf
+Left alone, they could|launch a worldwide|biological attack.
+@3d_base.h2z:mis_data_s12.bin:0x200e
+So we have no choice but|to stop them before it|gets worse.
+@3d_base.h2z:mis_data_s12.bin:0x2052
+Leon's mood turns to|resolve.
+@3d_base.h2z:mis_data_s12.bin:0x207c
+However bad things get,|Leon never gives up.|That is his strength.
+@3d_base.h2z:mis_data_s12.bin:0x20cd
+Save Ashley... Crush|Saddler's dreams... Leon's|fight goes on.
+@3d_base.h2z:mis_data_s12.bin:0x211a
+Hang in there, Ashley. I'm|coming to get you.
+@3d_base.h2z:mis_data_s12.bin:0x2146
+The elevator power|is on.
+
+# ---- common.h2z:Bio4_StringLayout.bin (title, shop, options, results; glyph strings, pool resized)
+@common.h2z:Bio4_StringLayout.bin:0x2c53
+This game contains scenes of 
+explicit violence and blood, 
+and is not recommended for 
+players under 17 years of 
+age. Parental guidance is 
+advised for such players. 
+
+@common.h2z:Bio4_StringLayout.bin:0x2dbd
+START GAME
+@common.h2z:Bio4_StringLayout.bin:0x2deb
+DELETE DATA
+@common.h2z:Bio4_StringLayout.bin:0x2e2f
+DELETE DATA
+@common.h2z:Bio4_StringLayout.bin:0x2e49
+START GAME
+@common.h2z:Bio4_StringLayout.bin:0x2e63
+OPTIONS
+@common.h2z:Bio4_StringLayout.bin:0x2e71
+EXIT
+@common.h2z:Bio4_StringLayout.bin:0x2e79
+Delete all saved data?
+@common.h2z:Bio4_StringLayout.bin:0x2eb5
+Quit the application.
+@common.h2z:Bio4_StringLayout.bin:0x2ee1
+YES
+@common.h2z:Bio4_StringLayout.bin:0x2ee9
+NO
+@common.h2z:Bio4_StringLayout.bin:0x2ef1
+Destroy all the blue coins!
+@common.h2z:Bio4_StringLayout.bin:0x2f2f
+PLAY
+@common.h2z:Bio4_StringLayout.bin:0x2f3b
+RECORDS
+@common.h2z:Bio4_StringLayout.bin:0x2f4b
+DELETE RECORDS
+@common.h2z:Bio4_StringLayout.bin:0x2f6b
+Delete records?
+@common.h2z:Bio4_StringLayout.bin:0x2f8b
+YES
+@common.h2z:Bio4_StringLayout.bin:0x2f93
+NO
+@common.h2z:Bio4_StringLayout.bin:0x2fc1
+1st
+@common.h2z:Bio4_StringLayout.bin:0x2fc7
+2nd
+@common.h2z:Bio4_StringLayout.bin:0x2fcd
+3rd
+@common.h2z:Bio4_StringLayout.bin:0x2fd3
+4th
+@common.h2z:Bio4_StringLayout.bin:0x2fd9
+5th
+@common.h2z:Bio4_StringLayout.bin:0x30b3
+Start
+@common.h2z:Bio4_StringLayout.bin:0x30c3
+Buy
+@common.h2z:Bio4_StringLayout.bin:0x30d3
+Sell
+@common.h2z:Bio4_StringLayout.bin:0x30f1
+See anything you like?
+@common.h2z:Bio4_StringLayout.bin:0x3123
+Sell me your stuff!
+@common.h2z:Bio4_StringLayout.bin:0x314d
+Buying anything?
+@common.h2z:Bio4_StringLayout.bin:0x3171
+You impress me.
+@common.h2z:Bio4_StringLayout.bin:0x3195
+Here's a discount.
+@common.h2z:Bio4_StringLayout.bin:0x31c1
+What are you buying?
+@common.h2z:Bio4_StringLayout.bin:0x31ef
+I've got a good deal for you.
+@common.h2z:Bio4_StringLayout.bin:0x322b
+I think we can make a deal.
+@common.h2z:Bio4_StringLayout.bin:0x3261
+Let's make a deal!
+@common.h2z:Bio4_StringLayout.bin:0x3281
+*Item List Updated*
+@common.h2z:Bio4_StringLayout.bin:0x32b9
+Buy
+@common.h2z:Bio4_StringLayout.bin:0x32cd
+Buying
+@common.h2z:Bio4_StringLayout.bin:0x32dd
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x32ef
+Selling
+@common.h2z:Bio4_StringLayout.bin:0x32fd
+Come on, you can't 
+afford that, stranger.
+@common.h2z:Bio4_StringLayout.bin:0x335f
+Sell
+@common.h2z:Bio4_StringLayout.bin:0x336d
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x337f
+How many do you want?
+@common.h2z:Bio4_StringLayout.bin:0x33a5
+How many will it be?
+@common.h2z:Bio4_StringLayout.bin:0x33db
+How many will it be?
+@common.h2z:Bio4_StringLayout.bin:0x3403
+How many do you want?
+@common.h2z:Bio4_StringLayout.bin:0x3433
+You've nothing to 
+upgrade, stranger.
+@common.h2z:Bio4_StringLayout.bin:0x3489
+Lv.
+@common.h2z:Bio4_StringLayout.bin:0x34b7
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x3571
+Lv.
+@common.h2z:Bio4_StringLayout.bin:0x357b
+Lv.
+@common.h2z:Bio4_StringLayout.bin:0x3585
+Lv.
+@common.h2z:Bio4_StringLayout.bin:0x359b
+You don't have 
+enough room!
+@common.h2z:Bio4_StringLayout.bin:0x35dd
+You don't have 
+enough money!
+@common.h2z:Bio4_StringLayout.bin:0x3623
+This little thing packs 
+a punch! It'll cost you!
+@common.h2z:Bio4_StringLayout.bin:0x3681
+This gun's been finely 
+tuned! It'll cost 
+you!
+@common.h2z:Bio4_StringLayout.bin:0x36ed
+We're dealing with a 
+monster here! It'll cost you!
+@common.h2z:Bio4_StringLayout.bin:0x3783
+STORY MODE
+@common.h2z:Bio4_StringLayout.bin:0x37a1
+MERCENARY MODE
+@common.h2z:Bio4_StringLayout.bin:0x37cb
+NEW ROUND
+@common.h2z:Bio4_StringLayout.bin:0x37e1
+NEW ROUND
+@common.h2z:Bio4_StringLayout.bin:0x37f7
+NEW ROUND
+@common.h2z:Bio4_StringLayout.bin:0x380d
+NEW ROUND
+@common.h2z:Bio4_StringLayout.bin:0x3823
+NEW ROUND
+@common.h2z:Bio4_StringLayout.bin:0x3839
+Can't be selected.
+@common.h2z:Bio4_StringLayout.bin:0x3869
+Can't be selected.
+@common.h2z:Bio4_StringLayout.bin:0x3899
+Can't be selected.
+@common.h2z:Bio4_StringLayout.bin:0x38c9
+Can't be selected.
+@common.h2z:Bio4_StringLayout.bin:0x38f9
+Can't be selected.
+@common.h2z:Bio4_StringLayout.bin:0x3929
+      *Story Mode* 
+Clear missions to move  
+the story along! Items you 
+get can be kept. 
+    *Mercenary Mode* 
+Clear missions with the 
+tools you're given 
+to earn rewards! 
+Switch game modes 
+with the D-Pad.
+@common.h2z:Bio4_StringLayout.bin:0x3b21
+PROFESSIONAL
+@common.h2z:Bio4_StringLayout.bin:0x3b6d
+Start
+@common.h2z:Bio4_StringLayout.bin:0x3b7d
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x3b91
+PROFESSIONAL
+@common.h2z:Bio4_StringLayout.bin:0x3bab
+Record
+@common.h2z:Bio4_StringLayout.bin:0x3bbd
+Mission clears and records
+@common.h2z:Bio4_StringLayout.bin:0x3bf3
+will be deleted. OK?
+@common.h2z:Bio4_StringLayout.bin:0x3c1b
+(Gold/items will be kept)
+@common.h2z:Bio4_StringLayout.bin:0x3c53
+YES
+@common.h2z:Bio4_StringLayout.bin:0x3c5b
+NO
+@common.h2z:Bio4_StringLayout.bin:0x3c63
+NEW ROUND
+@common.h2z:Bio4_StringLayout.bin:0x3c79
+Please select difficulty
+@common.h2z:Bio4_StringLayout.bin:0x3cb3
+AGENT
+@common.h2z:Bio4_StringLayout.bin:0x3cc1
+VETERAN
+@common.h2z:Bio4_StringLayout.bin:0x3ce1
+PROFESSIONAL
+@common.h2z:Bio4_StringLayout.bin:0x3cfb
+MISSION COMPLETE!
+@common.h2z:Bio4_StringLayout.bin:0x3d1d
+HIT RATIO
+@common.h2z:Bio4_StringLayout.bin:0x3d47
+HEALTH
+@common.h2z:Bio4_StringLayout.bin:0x3d51
+ATTACK
+@common.h2z:Bio4_StringLayout.bin:0x3d9f
+MISSION COMPLETE!
+@common.h2z:Bio4_StringLayout.bin:0x3dc1
+Success Bonus
+@common.h2z:Bio4_StringLayout.bin:0x3de3
+Extra Bonus
+@common.h2z:Bio4_StringLayout.bin:0x3dfb
+Treasure
+@common.h2z:Bio4_StringLayout.bin:0x3e09
+Enemy
+@common.h2z:Bio4_StringLayout.bin:0x3e1d
+Strategic
+@common.h2z:Bio4_StringLayout.bin:0x3e47
+Result
+@common.h2z:Bio4_StringLayout.bin:0x3e5b
+Record
+@common.h2z:Bio4_StringLayout.bin:0x3e9b
+Professional
+@common.h2z:Bio4_StringLayout.bin:0x3ec5
+RESULTS
+@common.h2z:Bio4_StringLayout.bin:0x3ed9
+COINS
+@common.h2z:Bio4_StringLayout.bin:0x3ee7
+TIME
+@common.h2z:Bio4_StringLayout.bin:0x3ef3
+HIT RATIO
+@common.h2z:Bio4_StringLayout.bin:0x3f1d
+TOTAL SCORE
+@common.h2z:Bio4_StringLayout.bin:0x3f4f
+1st
+@common.h2z:Bio4_StringLayout.bin:0x3f55
+2nd
+@common.h2z:Bio4_StringLayout.bin:0x3f5b
+3rd
+@common.h2z:Bio4_StringLayout.bin:0x3f61
+4th
+@common.h2z:Bio4_StringLayout.bin:0x3f67
+5th
+@common.h2z:Bio4_StringLayout.bin:0x3f6d
+6th
+@common.h2z:Bio4_StringLayout.bin:0x3f73
+GAME OVER
+@common.h2z:Bio4_StringLayout.bin:0x3f8b
+You are dead.
+@common.h2z:Bio4_StringLayout.bin:0x3fad
+Oh no!
+@common.h2z:Bio4_StringLayout.bin:0x3fbd
+Time's up!
+@common.h2z:Bio4_StringLayout.bin:0x3fd9
+Retry
+@common.h2z:Bio4_StringLayout.bin:0x3ffb
+Quit
+@common.h2z:Bio4_StringLayout.bin:0x400f
+Press:
+@common.h2z:Bio4_StringLayout.bin:0x4025
+Available. Take it?
+@common.h2z:Bio4_StringLayout.bin:0x405b
+YES
+@common.h2z:Bio4_StringLayout.bin:0x4063
+NO
+@common.h2z:Bio4_StringLayout.bin:0x406b
+USE
+@common.h2z:Bio4_StringLayout.bin:0x407d
+Options
+@common.h2z:Bio4_StringLayout.bin:0x408b
+Retry
+@common.h2z:Bio4_StringLayout.bin:0x40ad
+Quit
+@common.h2z:Bio4_StringLayout.bin:0x40b7
+Sound
+@common.h2z:Bio4_StringLayout.bin:0x40bf
+Controls
+@common.h2z:Bio4_StringLayout.bin:0x40e7
+Retry mission
+@common.h2z:Bio4_StringLayout.bin:0x4117
+Return to title screen
+@common.h2z:Bio4_StringLayout.bin:0x4145
+Sound settings
+@common.h2z:Bio4_StringLayout.bin:0x4163
+Control settings
+@common.h2z:Bio4_StringLayout.bin:0x418d
+Vibration settings
+@common.h2z:Bio4_StringLayout.bin:0x41b7
+Press to save
+@common.h2z:Bio4_StringLayout.bin:0x41df
+Retry
+@common.h2z:Bio4_StringLayout.bin:0x4201
+Quit
+@common.h2z:Bio4_StringLayout.bin:0x420b
+Sound
+@common.h2z:Bio4_StringLayout.bin:0x4213
+Controls
+@common.h2z:Bio4_StringLayout.bin:0x423b
+Retry?
+@common.h2z:Bio4_StringLayout.bin:0x425f
+YES
+@common.h2z:Bio4_StringLayout.bin:0x4267
+NO
+@common.h2z:Bio4_StringLayout.bin:0x426f
+Return to title screen?
+@common.h2z:Bio4_StringLayout.bin:0x429f
+YES
+@common.h2z:Bio4_StringLayout.bin:0x42a7
+NO
+@common.h2z:Bio4_StringLayout.bin:0x42b7
+Volume: Low
+@common.h2z:Bio4_StringLayout.bin:0x42d3
+Volume: Medium
+@common.h2z:Bio4_StringLayout.bin:0x42ef
+Volume: High
+@common.h2z:Bio4_StringLayout.bin:0x4311
+Volume: Low
+@common.h2z:Bio4_StringLayout.bin:0x432d
+Volume: Medium
+@common.h2z:Bio4_StringLayout.bin:0x4349
+Volume: High
+@common.h2z:Bio4_StringLayout.bin:0x4363
+TYPE A
+@common.h2z:Bio4_StringLayout.bin:0x4371
+TYPE B
+@common.h2z:Bio4_StringLayout.bin:0x437f
+TYPE C
+@common.h2z:Bio4_StringLayout.bin:0x438d
+TYPE D
+@common.h2z:Bio4_StringLayout.bin:0x439b
+*When moving*
+@common.h2z:Bio4_StringLayout.bin:0x43c7
+Move: D-Pad
+@common.h2z:Bio4_StringLayout.bin:0x43f7
+Action: {1}
+@common.h2z:Bio4_StringLayout.bin:0x4413
+Ready weapon: ZR
+@common.h2z:Bio4_StringLayout.bin:0x4441
+Ready knife: ZL
+@common.h2z:Bio4_StringLayout.bin:0x446f
+Run: {2}
+@common.h2z:Bio4_StringLayout.bin:0x448f
+Quick turn: {v}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x44c1
+Ashley orders: {4}
+@common.h2z:Bio4_StringLayout.bin:0x44f3
+Confirm: {1}
+@common.h2z:Bio4_StringLayout.bin:0x4519
+Cancel: {2}
+@common.h2z:Bio4_StringLayout.bin:0x453f
+*With weapon ready*
+@common.h2z:Bio4_StringLayout.bin:0x4567
+Aim: D-Pad
+@common.h2z:Bio4_StringLayout.bin:0x4597
+Action/Attack: {1}
+@common.h2z:Bio4_StringLayout.bin:0x45c1
+Ready weapon: ZR
+@common.h2z:Bio4_StringLayout.bin:0x45ef
+Ready knife: ZL
+@common.h2z:Bio4_StringLayout.bin:0x461d
+Reload: {2}
+@common.h2z:Bio4_StringLayout.bin:0x4645
+Rifle zoom+: R stick {^}
+@common.h2z:Bio4_StringLayout.bin:0x4685
+Rifle zoom-: R stick {v}
+@common.h2z:Bio4_StringLayout.bin:0x46c5
+Step forward: {^}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x46f9
+Step right: {>}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x4729
+Step left: {<}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x4759
+Step back: {v}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x478f
+Ashley orders: {4}
+@common.h2z:Bio4_StringLayout.bin:0x47c3
+*System*
+@common.h2z:Bio4_StringLayout.bin:0x47d7
+Status: {3}
+@common.h2z:Bio4_StringLayout.bin:0x47f7
+Options: {H}
+@common.h2z:Bio4_StringLayout.bin:0x481d
+*When moving*
+@common.h2z:Bio4_StringLayout.bin:0x4849
+Move: D-Pad
+@common.h2z:Bio4_StringLayout.bin:0x4879
+Action: {1}
+@common.h2z:Bio4_StringLayout.bin:0x4895
+Ready weapon: ZR
+@common.h2z:Bio4_StringLayout.bin:0x48c3
+Ready knife: ZL
+@common.h2z:Bio4_StringLayout.bin:0x48f1
+Run: {4}
+@common.h2z:Bio4_StringLayout.bin:0x4911
+Quick turn: {v}+{4}
+@common.h2z:Bio4_StringLayout.bin:0x4943
+Ashley orders: {2}
+@common.h2z:Bio4_StringLayout.bin:0x4975
+Confirm: {1}
+@common.h2z:Bio4_StringLayout.bin:0x499b
+Cancel: {2}
+@common.h2z:Bio4_StringLayout.bin:0x49c1
+*With weapon ready*
+@common.h2z:Bio4_StringLayout.bin:0x49e9
+Aim: D-Pad
+@common.h2z:Bio4_StringLayout.bin:0x4a19
+Action/Attack: {1}
+@common.h2z:Bio4_StringLayout.bin:0x4a43
+Ready weapon: ZR
+@common.h2z:Bio4_StringLayout.bin:0x4a71
+Ready knife: ZL
+@common.h2z:Bio4_StringLayout.bin:0x4a9f
+Reload: {4}
+@common.h2z:Bio4_StringLayout.bin:0x4ac7
+Rifle zoom+: R stick {^}
+@common.h2z:Bio4_StringLayout.bin:0x4b07
+Rifle zoom-: R stick {v}
+@common.h2z:Bio4_StringLayout.bin:0x4b47
+Step forward: {^}+{4}
+@common.h2z:Bio4_StringLayout.bin:0x4b7b
+Step right: {>}+{4}
+@common.h2z:Bio4_StringLayout.bin:0x4bab
+Step left: {<}+{4}
+@common.h2z:Bio4_StringLayout.bin:0x4bdb
+Step back: {v}+{4}
+@common.h2z:Bio4_StringLayout.bin:0x4c11
+Ashley orders: {2}
+@common.h2z:Bio4_StringLayout.bin:0x4c45
+*System*
+@common.h2z:Bio4_StringLayout.bin:0x4c59
+Status: {3}
+@common.h2z:Bio4_StringLayout.bin:0x4c79
+Options: {H}
+@common.h2z:Bio4_StringLayout.bin:0x4c9f
+*When moving*
+@common.h2z:Bio4_StringLayout.bin:0x4ccb
+Move: D-Pad
+@common.h2z:Bio4_StringLayout.bin:0x4cfb
+Action: {1}
+@common.h2z:Bio4_StringLayout.bin:0x4d17
+Ready weapon: ZR
+@common.h2z:Bio4_StringLayout.bin:0x4d45
+Ready knife: ZL
+@common.h2z:Bio4_StringLayout.bin:0x4d73
+Run: {2}
+@common.h2z:Bio4_StringLayout.bin:0x4d93
+Quick turn: {v}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x4dc5
+Ashley orders: {3}
+@common.h2z:Bio4_StringLayout.bin:0x4df7
+Confirm: {1}
+@common.h2z:Bio4_StringLayout.bin:0x4e1d
+Cancel: {2}
+@common.h2z:Bio4_StringLayout.bin:0x4e43
+*With weapon ready*
+@common.h2z:Bio4_StringLayout.bin:0x4e6b
+Aim: D-Pad
+@common.h2z:Bio4_StringLayout.bin:0x4e9b
+Action/Attack: {1}
+@common.h2z:Bio4_StringLayout.bin:0x4ec5
+Ready weapon: ZR
+@common.h2z:Bio4_StringLayout.bin:0x4ef3
+Ready knife: ZL
+@common.h2z:Bio4_StringLayout.bin:0x4f21
+Reload: {2}
+@common.h2z:Bio4_StringLayout.bin:0x4f49
+Rifle zoom+: R stick {^}
+@common.h2z:Bio4_StringLayout.bin:0x4f89
+Rifle zoom-: R stick {v}
+@common.h2z:Bio4_StringLayout.bin:0x4fc9
+Step forward: {^}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x4ffd
+Step right: {>}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x502d
+Step left: {<}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x505d
+Step back: {v}+{2}
+@common.h2z:Bio4_StringLayout.bin:0x5093
+Ashley orders: {3}
+@common.h2z:Bio4_StringLayout.bin:0x50c7
+*System*
+@common.h2z:Bio4_StringLayout.bin:0x50db
+Status: {4}
+@common.h2z:Bio4_StringLayout.bin:0x50fb
+Options: {H}
+@common.h2z:Bio4_StringLayout.bin:0x5121
+*When moving*
+@common.h2z:Bio4_StringLayout.bin:0x514d
+Move: D-Pad
+@common.h2z:Bio4_StringLayout.bin:0x517b
+Action: {2}
+@common.h2z:Bio4_StringLayout.bin:0x5197
+Ready weapon: ZR
+@common.h2z:Bio4_StringLayout.bin:0x51c5
+Ready knife: ZL
+@common.h2z:Bio4_StringLayout.bin:0x51f3
+Run: {1}
+@common.h2z:Bio4_StringLayout.bin:0x5213
+Quick turn: {v}+{1}
+@common.h2z:Bio4_StringLayout.bin:0x5243
+Ashley orders: {4}
+@common.h2z:Bio4_StringLayout.bin:0x5275
+Confirm: {1}
+@common.h2z:Bio4_StringLayout.bin:0x529b
+Cancel: {2}
+@common.h2z:Bio4_StringLayout.bin:0x52c1
+*With weapon ready*
+@common.h2z:Bio4_StringLayout.bin:0x52e9
+Aim: D-Pad
+@common.h2z:Bio4_StringLayout.bin:0x5319
+Action/Attack: {2}
+@common.h2z:Bio4_StringLayout.bin:0x5343
+Ready weapon: ZR
+@common.h2z:Bio4_StringLayout.bin:0x5371
+Ready knife: ZL
+@common.h2z:Bio4_StringLayout.bin:0x539f
+Reload: {1}
+@common.h2z:Bio4_StringLayout.bin:0x53c7
+Rifle zoom+: R stick {^}
+@common.h2z:Bio4_StringLayout.bin:0x5405
+Rifle zoom-: R stick {v}
+@common.h2z:Bio4_StringLayout.bin:0x5445
+Step forward: {^}+{1}
+@common.h2z:Bio4_StringLayout.bin:0x5477
+Step right: {>}+{1}
+@common.h2z:Bio4_StringLayout.bin:0x54a7
+Step left: {<}+{1}
+@common.h2z:Bio4_StringLayout.bin:0x54d7
+Step back: {v}+{1}
+@common.h2z:Bio4_StringLayout.bin:0x550b
+Ashley orders: {4}
+@common.h2z:Bio4_StringLayout.bin:0x553f
+*System*
+@common.h2z:Bio4_StringLayout.bin:0x5553
+Status: {3}
+@common.h2z:Bio4_StringLayout.bin:0x5573
+Options: {H}
+@common.h2z:Bio4_StringLayout.bin:0x5691
+Weapons
+@common.h2z:Bio4_StringLayout.bin:0x569d
+Map
+@common.h2z:Bio4_StringLayout.bin:0x56a7
+Treasure
+@common.h2z:Bio4_StringLayout.bin:0x56b7
+Keys
+@common.h2z:Bio4_StringLayout.bin:0x56c3
+Files
+@common.h2z:Bio4_StringLayout.bin:0x56fb
+Equip
+@common.h2z:Bio4_StringLayout.bin:0x570b
+Discard
+@common.h2z:Bio4_StringLayout.bin:0x571f
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x5731
+Combine
+@common.h2z:Bio4_StringLayout.bin:0x5743
+Discard
+@common.h2z:Bio4_StringLayout.bin:0x5757
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x5769
+Use
+@common.h2z:Bio4_StringLayout.bin:0x5773
+Combine
+@common.h2z:Bio4_StringLayout.bin:0x5785
+Discard
+@common.h2z:Bio4_StringLayout.bin:0x5799
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x57ab
+Combine
+@common.h2z:Bio4_StringLayout.bin:0x57bd
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x57cf
+Combine
+@common.h2z:Bio4_StringLayout.bin:0x57e1
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x57f3
+Confirm
+@common.h2z:Bio4_StringLayout.bin:0x5807
+Cancel
+@common.h2z:Bio4_StringLayout.bin:0x5831
+You can't heal Ashley 
+unless she's nearby.
+@common.h2z:Bio4_StringLayout.bin:0x5895
+You can't heal Ashley 
+until you rescue her.
+@common.h2z:Bio4_StringLayout.bin:0x58f3
+D-Pad: Move
+@common.h2z:Bio4_StringLayout.bin:0x5927
+Player Location
+@common.h2z:Bio4_StringLayout.bin:0x5955
+Goal
+@common.h2z:Bio4_StringLayout.bin:0x5965
+Treasure
+@common.h2z:Bio4_StringLayout.bin:0x5975
+Unlocked Door
+@common.h2z:Bio4_StringLayout.bin:0x5999
+Locked Door
+@common.h2z:Bio4_StringLayout.bin:0x59b7
+Controls
+@common.h2z:Bio4_StringLayout.bin:0x59cb
+D-Pad: Move
+@common.h2z:Bio4_StringLayout.bin:0x59ff
+Right stick {^}/{v}: Zoom
+@common.h2z:Bio4_StringLayout.bin:0x5a43
+Files
+@common.h2z:Bio4_StringLayout.bin:0x5a53
+Keys
+@common.h2z:Bio4_StringLayout.bin:0x5a5f
+Treasure
+@common.h2z:Bio4_StringLayout.bin:0x5a6f
+Map
+@common.h2z:Bio4_StringLayout.bin:0x5a79
+Weapons
+@common.h2z:Bio4_StringLayout.bin:0x5b69
+YES
+@common.h2z:Bio4_StringLayout.bin:0x5b71
+NO
+@common.h2z:Bio4_StringLayout.bin:0x601b
+Quit the application.
+@common.h2z:Bio4_StringLayout.bin:0x6209
+YES
+@common.h2z:Bio4_StringLayout.bin:0x6211
+NO
+@common.h2z:Bio4_StringLayout.bin:0x63eb
+Complete!
+@common.h2z:Bio4_StringLayout.bin:0x63ff
+Well done!
+@common.h2z:Bio4_StringLayout.bin:0x6415
+"Professional Mode" can
+@common.h2z:Bio4_StringLayout.bin:0x6445
+now be selected!
+@common.h2z:Bio4_StringLayout.bin:0x6473
+Mini-game "COIN SHOOT" can
+@common.h2z:Bio4_StringLayout.bin:0x64ab
+now be selected!
+@common.h2z:Bio4_StringLayout.bin:0x64d9
+Challenge yourself! Next up: 
+@common.h2z:Bio4_StringLayout.bin:0x6513
+Professional Mode!
+@common.h2z:Bio4_StringLayout.bin:0x6539
+Professional Mode complete!
+@common.h2z:Bio4_StringLayout.bin:0x6571
+Go for Rank   next time!
+@common.h2z:Bio4_StringLayout.bin:0x65a7
+You got Rank   in every
+@common.h2z:Bio4_StringLayout.bin:0x65e5
+Professional Mode mission!
+@common.h2z:Bio4_StringLayout.bin:0x6625
+Well done! You're the best agent around!
