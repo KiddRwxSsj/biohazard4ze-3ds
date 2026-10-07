@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="biohazard4z-3ds.png" alt="Resident Evil 4 Zeebo Edition" width="500"/>
+  <img src="screenshots/3dsdemo.png" alt="Title screen" width="700"/>
 </p>
 
 ---
