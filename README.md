@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/3dsdemo.png" alt="Title screen" width="600"/>
+  <img src="screenshots/re43ds.png" alt="Title screen" width="900"/>
 </p>
 
 ---
