@@ -37,7 +37,10 @@ AccessControlInfo:
   # 64MB holds the game, the soundfont and the cached archives.
   # the 80MB dev2 mode hung the cia on o3ds before the first frame
   SystemMode                    : 64MB
-  SystemModeExt                 : 124MB
+  # n3ds runs us in the same 64MB layout (osSetSpeedupEnable still gets 804MHz + L2).
+  # 124MB crashed at boot: linear is pinned at 16MB, so libctru asked for a ~107MB normal
+  # heap, past the 96MB heap area (0x08000000-0x0e000000), and svcBreaks in allocateHeaps
+  SystemModeExt                 : Legacy
   CpuSpeed                      : 804MHz
   EnableL2Cache                 : true
   IdealProcessor                : 0
