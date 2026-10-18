@@ -68,7 +68,17 @@ static cached_t *cache_get(const char *g, const char *hp)
     u32 sz = ftell(f);
     fseek(f, 0, SEEK_SET);
     u8 *d = malloc(sz ? sz : 1);
-    if (!d || fread(d, 1, sz, f) != sz) { free(d); fclose(f); return NULL; }
+    if (!d) {
+        // out of heap: stream it from sd instead. never report a game archive as missing,
+        // the game's error path deletes archives it thinks are broken
+        dbg("file: no heap to cache %s (%lu), heap free %luk, streaming it", g, sz, mem_heap_free() >> 10);
+        fclose(f);
+        return NULL;
+    }
+    if (fread(d, 1, sz, f) != sz) {
+        dbg("file: short read caching %s (%lu)", g, sz);
+        free(d); fclose(f); return NULL;
+    }
     fclose(f);
     lang_apply(g, d, sz);
     cached_t *c = &cache[ncache++];
@@ -87,15 +97,18 @@ static void mkparents(char *hp)
 
 static file_t *fm_open_(void *m, const char *g, int mode, char *hp);
 static char where_buf[80];
+static const char *where_was = "";
 
 static file_t *fm_open(void *m, const char *g, int mode)
 {
     char hp[256];
     snprintf(where_buf, sizeof where_buf, "file %s", g);
     const char *was = (const char *)g_where;
+    where_was = was ? was : "";
     WHERE(where_buf);
     g_beat++;
     file_t *r = fm_open_(m, g, mode, hp);
+    if (!r) dbg("file: open %s mode %d failed", g, mode);
     g_beat++;
     WHERE(was);
     return r;
@@ -110,10 +123,18 @@ static file_t *fm_open_(void *m, const char *g, int mode, char *hp)
 
     if (mode == OFM_READ && is_game_file(g) && is_hot(g)) {
         cached_t *c = cache_get(g, hp);
-        if (!c) { free(f); return NULL; }
-        f->mem = c->data;
-        f->size = c->size;
-        return f;
+        if (c) {
+            f->mem = c->data;
+            f->size = c->size;
+            return f;
+        }
+    }
+    // the game only ever reads its own data. a write, create or truncate on one comes from an
+    // error path and would destroy the user's dump, so it gets refused
+    if (mode != OFM_READ && is_game_file(g)) {
+        dbg("file: refused open of game file %s mode %d (in '%s')", g, mode, where_was);
+        free(f);
+        return NULL;
     }
     const char *how = "rb";
     if (mode & OFM_CREATE) { mkparents(hp); how = "w+b"; }
@@ -151,10 +172,18 @@ static int fm_info(void *m, const char *g, u8 *info)
     return SUCCESS;
 }
 
+// the game deletes archives it decides are corrupt (on the zeebo the store would download
+// them again). here that wipes the user's dump for good, so game files are never removed
 static int fm_remove(void *m, const char *g)
 {
     char hp[256];
     host_path(g, hp, sizeof hp);
+    if (is_game_file(g)) {
+        dbg("file: refused remove of game file %s (in '%s', heap free %luk)", g,
+            g_where ? (const char *)g_where : "", mem_heap_free() >> 10);
+        return EFAILED;
+    }
+    dbg("file: remove %s", g);
     return remove(hp) ? EFAILED : SUCCESS;
 }
 
@@ -242,6 +271,13 @@ void files_init(void)
     v[0] = one; v[1] = f_release; v[2] = zero; v[3] = f_read; v[4] = zero; v[5] = f_write;
     v[6] = f_info; v[7] = f_seek; v[8] = f_truncate; v[9] = f_info; v[10] = zero; v[11] = zero;
     mkdir(GAME_DIR "udata", 0777);
+    // cache the hot archives before the soundfont thread starts eating the heap
+    static const char *const hot[] = { "common.h2z", "3d_base.h2z" };
+    for (int i = 0; i < 2; i++) {
+        char hp[256];
+        host_path(hot[i], hp, sizeof hp);
+        if (!cache_get(hot[i], hp)) dbg("file: could not preload %s", hot[i]);
+    }
 }
 
 void *filemgr_new(void) { return &fmgr; }

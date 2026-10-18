@@ -210,6 +210,8 @@ static void render(s16 *out)
     }
 }
 
+#define SF2_RESERVE (12u << 20)
+
 static void dsp_cb(void *p) { LightEvent_Signal(&wake); }
 
 static void thread_main(void *arg)
@@ -219,6 +221,15 @@ static void thread_main(void *arg)
     struct stat st;
     if (stat(GAME_DIR "bgm.sf2", &st)) { dbg("midi: no " GAME_DIR "bgm.sf2, music off"); failed = true; return; }
     dbg("midi: loading bgm.sf2 (%ld bytes), heap free %luk", (long)st.st_size, mem_heap_free() >> 10);
+    // the game needs its heap too (stage loads, textures). a full size soundfont would starve it,
+    // so leave it a margin and run without music instead
+    u32 avail = mem_heap_free();
+    if ((u32)st.st_size + SF2_RESERVE > avail) {
+        dbg("midi: bgm.sf2 too big for the heap (%ldk, free %luk, game needs %uk), music off. "
+            "shrink it with re/sf2shrink.py", (long)st.st_size >> 10, avail >> 10, SF2_RESERVE >> 10);
+        failed = true;
+        return;
+    }
     font = tsf_load_filename(GAME_DIR "bgm.sf2");
     if (!font) {
         dbg("midi: bgm.sf2 failed to load, heap free %luk. out of memory? music off", mem_heap_free() >> 10);

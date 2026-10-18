@@ -20,6 +20,9 @@ uint32_t aee_uptime(void) { return (uint32_t)(osGetTime() - t0); }
 void *aee_malloc(uint32_t n)
 {
     void *p = malloc((n & ~ALLOC_NO_ZMEM) ? (n & ~ALLOC_NO_ZMEM) : 1);
+    static int fails;
+    if (!p && fails++ < 32)
+        dbg("heap: game alloc of %lu failed, heap free %luk", n & ~ALLOC_NO_ZMEM, mem_heap_free() >> 10);
     if (p && !(n & ALLOC_NO_ZMEM)) memset(p, 0, n & ~ALLOC_NO_ZMEM);
     return p;
 }

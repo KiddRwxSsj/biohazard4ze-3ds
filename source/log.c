@@ -13,6 +13,9 @@ void dbg(const char *fmt, ...)
     // a teardown thread left running past dbg_close would reopen with "w" and wipe the log
     if (closed) return;
     if (!lf) {
+        // keep the previous run's log, the run that broke is usually the one before the report
+        remove(GAME_DIR "log_cia_prev.txt");
+        rename(GAME_DIR "log_cia.txt", GAME_DIR "log_cia_prev.txt");
         lf = fopen(GAME_DIR "log_cia.txt", "w");
         if (!lf) return;
     }
